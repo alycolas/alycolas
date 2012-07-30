@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<UgCategoryList version='1'>
+  <category>
+    <name value='Home'/>
+    <ActiveLimit value='3'/>
+    <FinishedLimit value='300'/>
+    <RecycledLimit value='300'/>
+    <DownloadDefault>
+      <DataList>
+        <DataClass name='common'>
+          <folder value='/home/alycolas'/>
+          <ConnectTimeout value='30'/>
+          <TransmitTimeout value='30'/>
+          <RetryDelay value='6'/>
+          <RetryLimit value='99'/>
+          <MaxConnections value='1'/>
+          <MaxUploadSpeed value='0'/>
+          <MaxDownloadSpeed value='0'/>
+          <AttachedStamp value='0'/>
+        </DataClass>
+        <DataClass name='relation'>
+          <hints value='0'/>
+          <AttachedStamp value='0'/>
+          <MessageType value='0'/>
+        </DataClass>
+      </DataList>
+    </DownloadDefault>
+    <DownloadIndices>
+      <int value='18'/>
+      <int value='17'/>
+      <int value='16'/>
+      <int value='15'/>
+      <int value='14'/>
+      <int value='13'/>
+      <int value='12'/>
+      <int value='11'/>
+      <int value='10'/>
+      <int value='9'/>
+      <int value='8'/>
+      <int value='7'/>
+      <int value='6'/>
+      <int value='5'/>
+      <int value='4'/>
+      <int value='3'/>
+      <int value='2'/>
+      <int value='1'/>
+      <int value='0'/>
+    </DownloadIndices>
+  </category>
+</UgCategoryList>

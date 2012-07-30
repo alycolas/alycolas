@@ -1,0 +1,26 @@
+{
+   "inputtool_description": {
+      "message": "Google Input Tools ti consente di digitare nella tua lingua utilizzando gli strumenti di immissione a te familiari."
+   },
+   "inputtool_extension_options": {
+      "message": "Opzioni estensione"
+   },
+   "inputtool_manage": {
+      "message": "Per gestire le estensioni, fai clic sul menu Strumenti TOOL_IMAGE e seleziona Strumenti RIGHT_ARROW Estensioni."
+   },
+   "inputtool_options_title": {
+      "message": "Opzioni estensione Google Chrome"
+   },
+   "inputtool_select_inputtools": {
+      "message": "Aggiungi strumenti di immissione:"
+   },
+   "inputtool_selected_inputtools": {
+      "message": "Strumenti di immissione selezionati:"
+   },
+   "inputtool_title": {
+      "message": "Google Input Tools (di Google)"
+   },
+   "inputtool_turnoff": {
+      "message": "Disattiva"
+   }
+}

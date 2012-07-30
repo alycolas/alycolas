@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Flipboard
+N:Flipboard;;;;
+PROFILE:VCARD
+ADR:;;818 Emerson Street;Palo Alto;CA;94301;USA
+EMAIL;TYPE=WORK:info@flipboard.com
+ORG:Flipboard\, Inc.
+URL:http://www.flipboard.com/android
+END:VCARD

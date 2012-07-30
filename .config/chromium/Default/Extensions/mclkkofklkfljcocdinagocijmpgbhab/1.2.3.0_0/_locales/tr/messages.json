@@ -1,0 +1,26 @@
+{
+   "inputtool_description": {
+      "message": "Google Input Tools, bildi\u011Finiz giri\u015F ara\u00E7lar\u0131n\u0131 kullanarak kendi dilinizde yazman\u0131za olanak sa\u011Flar."
+   },
+   "inputtool_extension_options": {
+      "message": "Uzant\u0131 Se\u00E7enekleri"
+   },
+   "inputtool_manage": {
+      "message": "Uzant\u0131lar\u0131 y\u00F6netmek i\u00E7in ingiliz anathar\u0131 TOOL_IMAGE men\u00FCs\u00FCn\u00FC t\u0131klay\u0131n ve  Ara\u00E7lar RIGHT_ARROW Uzant\u0131lar'\u0131 se\u00E7in."
+   },
+   "inputtool_options_title": {
+      "message": "Chrome uzant\u0131 se\u00E7enekleri"
+   },
+   "inputtool_select_inputtools": {
+      "message": "Giri\u015F ara\u00E7lar\u0131 ekleyin:"
+   },
+   "inputtool_selected_inputtools": {
+      "message": "Se\u00E7ili giri\u015F ara\u00E7lar\u0131:"
+   },
+   "inputtool_title": {
+      "message": "Google Input Tools (Google'dan)"
+   },
+   "inputtool_turnoff": {
+      "message": "Kapat"
+   }
+}

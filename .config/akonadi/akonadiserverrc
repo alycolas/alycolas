@@ -1,0 +1,12 @@
+[%General]
+Driver=QMYSQL
+
+[QMYSQL]
+Name=akonadi
+Host=
+Options="UNIX_SOCKET=/home/alycolas/.local/share/akonadi/socket-eraka/mysql.socket"
+ServerPath=/usr/bin/mysqld
+StartServer=true
+
+[Debug]
+Tracer=null

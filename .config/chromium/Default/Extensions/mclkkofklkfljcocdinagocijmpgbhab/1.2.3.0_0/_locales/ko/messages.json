@@ -1,0 +1,26 @@
+{
+   "inputtool_description": {
+      "message": "Google \uC785\uB825 \uB3C4\uAD6C\uB97C \uC0AC\uC6A9\uD558\uBA74 \uB098\uC5D0\uAC8C \uC775\uC219\uD55C \uC785\uB825 \uB3C4\uAD6C\uB97C \uC0AC\uC6A9\uD558\uC5EC \uC6D0\uD558\uB294 \uC5B8\uC5B4\uB85C \uC785\uB825\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+   },
+   "inputtool_extension_options": {
+      "message": "\uD655\uC7A5 \uD504\uB85C\uADF8\uB7A8 \uC635\uC158"
+   },
+   "inputtool_manage": {
+      "message": "\uD655\uC7A5 \uD504\uB85C\uADF8\uB7A8\uC744 \uAD00\uB9AC\uD558\uB824\uBA74 \uACF5\uAD6C\uBAA8\uC591 TOOL_IMAGE \uBA54\uB274\uB97C \uD074\uB9AD\uD55C \uB2E4\uC74C \uB3C4\uAD6C RIGHT_ARROW \uD655\uC7A5 \uD504\uB85C\uADF8\uB7A8\uC744 \uC120\uD0DD\uD558\uC138\uC694."
+   },
+   "inputtool_options_title": {
+      "message": "Chrome \uD655\uC7A5 \uD504\uB85C\uADF8\uB7A8 \uC635\uC158"
+   },
+   "inputtool_select_inputtools": {
+      "message": "\uC785\uB825 \uB3C4\uAD6C \uCD94\uAC00:"
+   },
+   "inputtool_selected_inputtools": {
+      "message": "\uC120\uD0DD\uD55C \uC785\uB825 \uB3C4\uAD6C:"
+   },
+   "inputtool_title": {
+      "message": "Google \uC785\uB825 \uB3C4\uAD6C(Google \uC81C\uACF5)"
+   },
+   "inputtool_turnoff": {
+      "message": "\uC0AC\uC6A9 \uC548\uD568"
+   }
+}

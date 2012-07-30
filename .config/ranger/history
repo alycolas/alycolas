@@ -1,0 +1,26 @@
+shell dd
+open_with 
+rm
+h
+open_with 7zip
+open_with 7z
+
+shell d
+search mp
+help
+ls -a
+mplayer
+shell mplayer
+shell mplayer 
+shell 
+open_with k
+wq
+m
+shell rm
+shell dsd
+open_with tar xzrf
+open_with tar xf
+open_with
+shell gvim
+gvim excel.txt
+open_with vlc

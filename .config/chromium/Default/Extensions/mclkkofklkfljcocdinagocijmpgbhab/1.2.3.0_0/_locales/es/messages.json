@@ -1,0 +1,26 @@
+{
+   "inputtool_description": {
+      "message": "La extensi\u00F3n Herramientas de introducci\u00F3n de texto de Google te permite escribir en tu propio idioma mediante las herramientas de introducci\u00F3n de texto que conoces."
+   },
+   "inputtool_extension_options": {
+      "message": "Opciones de extensiones"
+   },
+   "inputtool_manage": {
+      "message": "Para administrar extensiones, haz clic en el men\u00FA de herramientas TOOL_IMAGE y selecciona \"Herramientas RIGHT_ARROW Extensiones\"."
+   },
+   "inputtool_options_title": {
+      "message": "Opciones de extensiones de Chrome"
+   },
+   "inputtool_select_inputtools": {
+      "message": "A\u00F1adir herramientas de introducci\u00F3n de texto:"
+   },
+   "inputtool_selected_inputtools": {
+      "message": "Herramientas de introducci\u00F3n de texto seleccionadas:"
+   },
+   "inputtool_title": {
+      "message": "Herramientas de introducci\u00F3n de texto de Google"
+   },
+   "inputtool_turnoff": {
+      "message": "Desactivar"
+   }
+}

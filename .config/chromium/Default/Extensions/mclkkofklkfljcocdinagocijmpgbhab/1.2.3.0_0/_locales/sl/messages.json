@@ -1,0 +1,26 @@
+{
+   "inputtool_description": {
+      "message": "Z Google Orodji za vnos lahko besedilo v svojem jeziku vna\u0161ate z orodji za vnos, ki jih \u017Ee poznate."
+   },
+   "inputtool_extension_options": {
+      "message": "Mo\u017Enosti raz\u0161iritev"
+   },
+   "inputtool_manage": {
+      "message": "Za upravljanje raz\u0161iritev kliknite meni s klju\u010Dem TOOL_IMAGE in izberite Orodja RIGHT_ARROW Raz\u0161iritve."
+   },
+   "inputtool_options_title": {
+      "message": "Mo\u017Enosti raz\u0161iritev za Chrome"
+   },
+   "inputtool_select_inputtools": {
+      "message": "Dodajte orodja za vnos:"
+   },
+   "inputtool_selected_inputtools": {
+      "message": "Izbrana orodja za vnos:"
+   },
+   "inputtool_title": {
+      "message": "Google Orodja za vnos"
+   },
+   "inputtool_turnoff": {
+      "message": "Izklopi"
+   }
+}

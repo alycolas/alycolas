@@ -1,0 +1,26 @@
+{
+   "inputtool_description": {
+      "message": "C\u00F4ng c\u1EE5 nh\u1EADp li\u1EC7u c\u1EE7a Google gi\u00FAp b\u1EA1n nh\u1EADp b\u1EB1ng ng\u00F4n ng\u1EEF c\u1EE7a m\u00ECnh th\u00F4ng qua c\u00F4ng c\u1EE5 nh\u1EADp li\u1EC7u quen thu\u1ED9c."
+   },
+   "inputtool_extension_options": {
+      "message": "T\u00F9y ch\u1ECDn ti\u1EC7n \u00EDch m\u1EDF r\u1ED9ng"
+   },
+   "inputtool_manage": {
+      "message": "\u0110\u1EC3 qu\u1EA3n l\u00FD ti\u1EC7n \u00EDch m\u1EDF r\u1ED9ng, nh\u1EA5p v\u00E0o tr\u00ECnh \u0111\u01A1n c\u1EDD l\u00EA TOOL_IMAGE v\u00E0 ch\u1ECDn C\u00F4ng c\u1EE5 RIGHT_ARROW Ti\u1EC7n \u00EDch m\u1EDF r\u1ED9ng."
+   },
+   "inputtool_options_title": {
+      "message": "T\u00F9y ch\u1ECDn ti\u1EC7n \u00EDch m\u1EDF r\u1ED9ng Chrome"
+   },
+   "inputtool_select_inputtools": {
+      "message": "Th\u00EAm c\u00F4ng c\u1EE5 nh\u1EADp:"
+   },
+   "inputtool_selected_inputtools": {
+      "message": "C\u00E1c c\u00F4ng c\u1EE5 nh\u1EADp li\u1EC7u \u0111\u01B0\u1EE3c ch\u1ECDn:"
+   },
+   "inputtool_title": {
+      "message": "C\u00F4ng c\u1EE5 nh\u1EADp li\u1EC7u c\u1EE7a Google (b\u1EDFi Google)"
+   },
+   "inputtool_turnoff": {
+      "message": "T\u1EAFt"
+   }
+}

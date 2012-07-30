@@ -1,0 +1,26 @@
+{
+   "inputtool_description": {
+      "message": "Binibigyang-daan ka ng Mga Input Tool ng Google na mag-type sa iyong wika gamit ang mga input tool na pamilyar sa iyo."
+   },
+   "inputtool_extension_options": {
+      "message": "Mga pagpipilian sa Extension"
+   },
+   "inputtool_manage": {
+      "message": "Upang pamahalaan ang mga extension. I-click ang menu na TOOL_IMAGE wrench at piliin ang Mga Tool RIGHT_ARROW Mga Extension."
+   },
+   "inputtool_options_title": {
+      "message": "Mga pagpipilian sa Chrome extension"
+   },
+   "inputtool_select_inputtools": {
+      "message": "Magdagdag ng mga input tool:"
+   },
+   "inputtool_selected_inputtools": {
+      "message": "Mga napiling input tool:"
+   },
+   "inputtool_title": {
+      "message": "Mga Input Tool ng Google (mula sa Google)"
+   },
+   "inputtool_turnoff": {
+      "message": "I-off"
+   }
+}

@@ -1,0 +1,26 @@
+{
+   "8/RrMmQlCD2Gsp14wUCE1P8r7B2C5+yE0+g79IPyRsc=": {
+      "created": 1343225259.597646,
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1345817259.597633,
+      "include_subdomains": true,
+      "mode": "force-https",
+      "static_spki_hashes": [  ]
+   },
+   "EPmcA7woOtrVWAGuo9c1YLR48mSW8KSLC0bED1BU0JM=": {
+      "created": 1338828711.974333,
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1354899115.410238,
+      "include_subdomains": false,
+      "mode": "force-https",
+      "static_spki_hashes": [  ]
+   },
+   "mPA/INyvbBufIejotw/nxkqXMSZ6f1+GY8zDuTq0MfE=": {
+      "created": 1338828047.584417,
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1354898447.584414,
+      "include_subdomains": false,
+      "mode": "force-https",
+      "static_spki_hashes": [  ]
+   }
+}

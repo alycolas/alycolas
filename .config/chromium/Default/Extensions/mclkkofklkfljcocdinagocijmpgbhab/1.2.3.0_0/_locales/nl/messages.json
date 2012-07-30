@@ -1,0 +1,26 @@
+{
+   "inputtool_description": {
+      "message": "Met Google Input Tools kunt u typen in uw taal met de invoerhulpmiddelen waarmee u bekend bent."
+   },
+   "inputtool_extension_options": {
+      "message": "Opties voor extensies"
+   },
+   "inputtool_manage": {
+      "message": "Klik op het menu 'Gereedschap' TOOL_IMAGE en selecteer 'Extra' RIGHT_ARROW 'Extensies' om extensies te beheren."
+   },
+   "inputtool_options_title": {
+      "message": "Opties voor Chrome-extensies"
+   },
+   "inputtool_select_inputtools": {
+      "message": "Invoerhulpmiddelen toevoegen:"
+   },
+   "inputtool_selected_inputtools": {
+      "message": "Geselecteerde invoerhulpmiddelen:"
+   },
+   "inputtool_title": {
+      "message": "Google Input Tools (van Google)"
+   },
+   "inputtool_turnoff": {
+      "message": "Uitschakelen"
+   }
+}

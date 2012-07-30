@@ -1,0 +1,26 @@
+{
+   "inputtool_description": {
+      "message": "Google Input Tools us permet escriure en el vostre idioma amb les eines d'introducci\u00F3 de text que coneixeu."
+   },
+   "inputtool_extension_options": {
+      "message": "Opcions d'extensi\u00F3"
+   },
+   "inputtool_manage": {
+      "message": "Per gestionar les extensions, feu clic al men\u00FA d'opcions TOOL_IMAGE i seleccioneu Eines RIGHT_ARROW Extensions."
+   },
+   "inputtool_options_title": {
+      "message": "Opcions d'extensi\u00F3 de Chrome"
+   },
+   "inputtool_select_inputtools": {
+      "message": "Afegeix eines d'entrada:"
+   },
+   "inputtool_selected_inputtools": {
+      "message": "Seleccioneu les eines d'entrada:"
+   },
+   "inputtool_title": {
+      "message": "Google Input Tools (de Google)"
+   },
+   "inputtool_turnoff": {
+      "message": "Desactiva"
+   }
+}

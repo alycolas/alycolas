@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="main.css" rel="Stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/base64.js"></script>
+    <title>KCPlayer Chrome扩展</title>
+</head>
+<body>
+    <div id="under">
+        <input type="text" name="movieurl" class="input" value="在这里输入要播放的地址!" id="playtext"
+            onmouseup='javascript:this.value="";this.focus()' />
+        <input type="button" class="btnPlay" value="网页播放" onmouseup="playUrl(false)" />
+        <input type="button" class="btnPlay" value="软件播放" onmouseup="playUrl(true)" />
+    </div>
+</body>
+</html>

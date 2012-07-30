@@ -1,0 +1,26 @@
+{
+   "inputtool_description": {
+      "message": "Med Google Input Tools kan du skrive p\u00E5 ditt eget spr\u00E5k med inndataverkt\u00F8yene du er kjent med."
+   },
+   "inputtool_extension_options": {
+      "message": "Alternativer for utvidelser"
+   },
+   "inputtool_manage": {
+      "message": "Du kan administrere utvidelser ved \u00E5 klikke p\u00E5 klikke p\u00E5 TOOL_IMAGE skiften\u00F8kkelmenyen og velge Verkt\u00F8y RIGHT_ARROW Utvidelser."
+   },
+   "inputtool_options_title": {
+      "message": "Alternativer for Chrome-utvidelser"
+   },
+   "inputtool_select_inputtools": {
+      "message": "Legg til inndataverkt\u00F8y:"
+   },
+   "inputtool_selected_inputtools": {
+      "message": "Valgte inndataverkt\u00F8y:"
+   },
+   "inputtool_title": {
+      "message": "Google Input Tools (fra Google)"
+   },
+   "inputtool_turnoff": {
+      "message": "Sl\u00E5 av"
+   }
+}

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Name=xp
+Comment=Starts the VirtualBox machine xp
+Type=Application
+Exec=/usr/lib/virtualbox/VirtualBox --comment "xp" --startvm "e0995183-3722-40a4-903d-712a22fb8217"
+Icon=virtualbox-vbox.png

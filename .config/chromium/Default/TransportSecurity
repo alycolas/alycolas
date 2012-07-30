@@ -1,0 +1,10 @@
+{
+   "EPmcA7woOtrVWAGuo9c1YLR48mSW8KSLC0bED1BU0JM=": {
+      "created": 1338285721.761238,
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1354634668.615763,
+      "include_subdomains": false,
+      "mode": "strict",
+      "preloaded_spki_hashes": [  ]
+   }
+}

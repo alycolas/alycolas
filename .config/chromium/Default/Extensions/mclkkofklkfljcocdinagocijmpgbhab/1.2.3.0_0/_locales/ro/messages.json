@@ -1,0 +1,26 @@
+{
+   "inputtool_description": {
+      "message": "Instrumentele de introducere Google v\u0103 permit s\u0103 introduce\u0163i text \u00EEn limba dvs. utiliz\u00E2nd instrumentele de introducere care v\u0103 sunt cunoscute."
+   },
+   "inputtool_extension_options": {
+      "message": "Op\u0163iuni pentru extensii"
+   },
+   "inputtool_manage": {
+      "message": "Pentru a gestiona extensiile, face\u0163i clic pe meniul cheie TOOL_IMAGE \u015Fi selecta\u0163i Instrumente RIGHT_ARROW Extensii."
+   },
+   "inputtool_options_title": {
+      "message": "Op\u0163iuni pentru extensiile Chrome"
+   },
+   "inputtool_select_inputtools": {
+      "message": "Ad\u0103uga\u0163i extensia Instrumente de intrare:"
+   },
+   "inputtool_selected_inputtools": {
+      "message": "Instrumente de introducere selectate:"
+   },
+   "inputtool_title": {
+      "message": "Instrumente de introducere Google (de la Google)"
+   },
+   "inputtool_turnoff": {
+      "message": "Dezactiva\u0163i"
+   }
+}

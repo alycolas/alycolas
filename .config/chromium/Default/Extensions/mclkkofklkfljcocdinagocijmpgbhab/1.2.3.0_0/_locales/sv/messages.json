@@ -1,0 +1,26 @@
+{
+   "inputtool_description": {
+      "message": "Med Google Input Tools har du alltid tillg\u00E5ng till verktyg som g\u00F6r att du kan skriva p\u00E5 ditt eget spr\u00E5k p\u00E5 samma s\u00E4tt som vanligt."
+   },
+   "inputtool_extension_options": {
+      "message": "Till\u00E4ggsalternativ"
+   },
+   "inputtool_manage": {
+      "message": "Om du vill hantera till\u00E4gg klickar du p\u00E5 skiftnyckelmenyn TOOL_IMAGE och v\u00E4ljer Verktyg RIGHT_ARROW Till\u00E4gg."
+   },
+   "inputtool_options_title": {
+      "message": "Alternativ f\u00F6r Chrome-till\u00E4gg"
+   },
+   "inputtool_select_inputtools": {
+      "message": "L\u00E4gg till indataverktyg:"
+   },
+   "inputtool_selected_inputtools": {
+      "message": "Valda indataverktyg:"
+   },
+   "inputtool_title": {
+      "message": "Google Input Tools (fr\u00E5n Google)"
+   },
+   "inputtool_turnoff": {
+      "message": "Inaktivera"
+   }
+}

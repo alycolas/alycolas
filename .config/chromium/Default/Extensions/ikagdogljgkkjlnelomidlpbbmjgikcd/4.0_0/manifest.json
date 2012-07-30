@@ -1,0 +1,13 @@
+{
+   "browser_action": {
+      "default_icon": "icon.ico",
+      "popup": "index.html"
+   },
+   "description": "KCPlayerOnline",
+   "icons": {
+      "128": "icon.ico"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCXlSgC/RvTiCQB0SlhG0XY9PEfu7dNthakk8TwVtTX0O0QOwSMxVtUIJCZB5T4gRicd7M+9PK9Xq8N7+y2YVzP1z1hpF+uiKCxtL/5i1eczBdksMaSUAFc+b+VJeGjTR/+DjCqiCblkNDvLfXYDQIp9OdRvTJp+JTVoefpoWkDJwIDAQAB",
+   "name": "KCPlayerOnline",
+   "version": "4.0"
+}

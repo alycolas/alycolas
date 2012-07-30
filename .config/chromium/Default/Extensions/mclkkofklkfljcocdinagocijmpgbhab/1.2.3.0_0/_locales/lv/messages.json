@@ -1,0 +1,26 @@
+{
+   "inputtool_description": {
+      "message": "Izmantojot papla\u0161in\u0101jumu Google ievades r\u012Bki, varat rakst\u012Bt sav\u0101 valod\u0101, izmantojot jums zin\u0101mos ievades r\u012Bkus."
+   },
+   "inputtool_extension_options": {
+      "message": "Papla\u0161in\u0101jumu opcijas"
+   },
+   "inputtool_manage": {
+      "message": "Lai p\u0101rvald\u012Btu papla\u0161in\u0101jumus, noklik\u0161\u0137iniet uz uzgrie\u017E\u0146u atsl\u0113gas TOOL_IMAGE izv\u0113lnes un atlasiet R\u012Bki RIGHT_ARROW Papla\u0161in\u0101jumi."
+   },
+   "inputtool_options_title": {
+      "message": "Chrome papla\u0161in\u0101jumu opcijas"
+   },
+   "inputtool_select_inputtools": {
+      "message": "Pievienot ievades r\u012Bkus:"
+   },
+   "inputtool_selected_inputtools": {
+      "message": "Atlas\u012Btie ievades r\u012Bki:"
+   },
+   "inputtool_title": {
+      "message": "Google ievades r\u012Bki (nodro\u0161ina Google)"
+   },
+   "inputtool_turnoff": {
+      "message": "Izsl\u0113gt"
+   }
+}

@@ -1,0 +1,89 @@
+{
+   "browser": {
+      "last_known_google_url": "http://www.google.com.hk/",
+      "last_prompted_google_url": "http://www.google.com.hk/",
+      "last_redirect_origin": ""
+   },
+   "local_state": {
+      "multiple_profile_prefs_version": 3
+   },
+   "ntp": {
+      "intro_display_count": 11,
+      "promo_locale": "zh-CN",
+      "promo_version": 7,
+      "webstore_enabled": false
+   },
+   "profile": {
+      "info_cache": {
+         "Default": {
+            "avatar_icon": "chrome://theme/IDR_PROFILE_AVATAR_0",
+            "background_apps": false,
+            "name": "First user",
+            "user_name": ""
+         }
+      },
+      "last_used": "Default"
+   },
+   "protocol_handler": {
+      "excluded_schemes": {
+         "afp": true,
+         "data": true,
+         "disk": true,
+         "disks": true,
+         "file": true,
+         "hcp": true,
+         "javascript": true,
+         "mailto": false,
+         "ms-help": true,
+         "news": false,
+         "nntp": true,
+         "shell": true,
+         "snews": false,
+         "vbscript": true,
+         "view-source": true,
+         "vnd": {
+            "ms": {
+               "radio": true
+            }
+         }
+      }
+   },
+   "safe_browsing": {
+      "client_key": "u2-sbfcv2hPiRQfYrXQ_vQ==",
+      "wrapped_key": "AKEgNiuc_mNWJ7ZW3HVU-wFUZw6LiNyzq2DyHxYFAYXsaw_nFZSfu9rwdXOYcL3grtwTB-8-TMdQ3R8-6uXaQEL04Q4Xlu3qxg=="
+   },
+   "show-first-run-bubble": false,
+   "shutdown": {
+      "num_processes": 2,
+      "num_processes_slow": 0,
+      "type": 1
+   },
+   "uninstall_metrics": {
+      "installation_date2": "1338279422",
+      "launch_count": "8"
+   },
+   "user_experience_metrics": {
+      "session_id": 7,
+      "stability": {
+         "breakpad_registration_fail": 1,
+         "breakpad_registration_ok": 0,
+         "crash_count": 0,
+         "debugger_not_present": 1,
+         "debugger_present": 0,
+         "exited_cleanly": true,
+         "incomplete_session_end_count": 0,
+         "last_timestamp_sec": "1338647209",
+         "launch_count": 1,
+         "launch_time_sec": "1338647175",
+         "page_load_count": 0,
+         "renderer_crash_count": 0,
+         "renderer_hang_count": 0,
+         "session_end_completed": true,
+         "stats_buildtime": "1337999053",
+         "stats_version": "19.0.1084.52-devel"
+      }
+   },
+   "was": {
+      "restarted": false
+   }
+}
