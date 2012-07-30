@@ -1,0 +1,67 @@
+!mouse selecting to copy, ctrl-v to paste
+!Ctrl p to print screen content to file
+XTerm*VT100.Translations: #override \
+    Ctrl <KeyPress> y: insert-selection(CLIPBOARD,PRIMARY,CUT_BUFFER0) \n\
+    <BtnUp>: select-end(CLIPBOARD,PRIMARY,CUT_BUFFER0) \n\
+    Ctrl <KeyPress> P: print() \n
+
+! Xft settings -
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+
+!look and feel
+xterm.termName: xterm-256color
+xterm.geometry: 70x46
+xterm*scrollBar: false
+xterm*loginshell: true
+xterm*cursorBlink: true
+xterm*background: #272822
+! #002B36 
+xterm*foreground:  white
+xterm.borderLess: true
+xterm.cursorBlink: true
+xterm*colorUL: yellow
+xterm*colorBD: white
+
+!fix alt key input 
+xterm*eightBitInput: false
+xterm*altSendsEscape: true
+
+!font and locale
+xterm*locale: true
+xterm.utf8:     true
+xterm*utf8Title: true
+xterm*fontMenu*fontdefault*Label: Default
+
+xterm*xftAntialias: true
+xterm*cjkWidth:false  
+xterm*faceName: Monaco:antialias=True:pixelsize=16:style=bold 
+! xterm*faceName: Consolas:antialias=True:pixelsize=16  
+! xterm*faceName: DejaVu Sans Mono:antialias=True:pixelsize=15  
+!双字节字体  
+xterm*faceNameDoublesize: WenQuanYi Micro Hei:pixelsize=13.5
+!xterm*faceNameDoublesize:文泉驿正黑:pixelsize=12  
+
+!!RXVT-unicode setting
+URxvt.font:-*-freemono-bold-r-normal--16-*-*-*-*-*-iso10646-1,xft:WenQuanYi Zen Hei:size=14:antialias-True
+!颜色
+Rxvt.background:#777777
+! black
+Rxvt.foreground:white
+Rxvt.colorBD:yellow
+Rxvt.colorUL:green
+!!滚动条
+Rxvt.scrollBar:True
+Rxvt.scrollBar_right:True
+Rxvt.scrollBar_floating: False
+Rxvt.scrollstyle:plain
+!!屏幕缓冲
+Rxvt.saveLines:10000
+Rxvt.color12:DodgerBlue
+Rxvt.menu:/etc/X11/rxvt.menu
+Rxvt.preeditType:Root
+!!输入法设置
+inputMethod:xim  
