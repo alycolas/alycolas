@@ -1,0 +1,638 @@
+startkde: Starting up...
+Connecting to deprecated signal QDBusConnectionInterface::serviceOwnerChanged(QString,QString,QString)
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+kbuildsycoca4 running...
+kbuildsycoca4(836) KConfigGroup::readXdgListEntry: List entry text/html in "/home/alycolas/.local/share/applications/mimeapps.list" is not compliant with XDG standard (missing trailing semicolon). 
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+kded(835)/kdecore (KConfigSkeleton) KCoreConfigSkeleton::writeConfig:
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+No outputs have backlight property
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+QDBusConnection: name 'org.kde.kglobalaccel' had owner '' but we thought it was ':1.5'
+kded(835) PowerDevilUPowerBackend::brightness: org.kde.powerdevil.backlighthelper.brightness failed 
+Object::connect: No such signal QDBusAbstractInterface::Changed()
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+OpenGL vendor string:                   NVIDIA Corporation
+OpenGL renderer string:                 GeForce 6100 nForce 405/integrated/SSE2/3DNOW!
+OpenGL version string:                  2.1.2 NVIDIA 302.11
+OpenGL shading language version string: 1.20 NVIDIA via Cg compiler
+Driver:                                 NVIDIA
+Driver version:                         302.11
+GPU class:                              NV40/G70
+OpenGL version:                         2.1.2
+GLSL version:                           1.20
+X server version:                       1.12.1
+Linux kernel version:                   3.3.7
+Direct rendering:                       yes
+Requires strict binding:                no
+GLSL shaders:                           limited
+Texture NPOT support:                   yes
+kwin(888): ""fsrestore1" - conversion of "0,0,0,0" to QRect failed" 
+kwin(888) KWin::EffectsHandlerImpl::loadEffect: EffectsHandler::loadEffect : Effect  "kwin4_effect_startupfeedback"  is not supported 
+kwin(888) KWin::EffectsHandlerImpl::loadEffect: EffectsHandler::loadEffect : Effect  "kwin4_effect_blur"  is not supported 
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+QDBusObjectPath: invalid path ""
+QDBusObjectPath: invalid path ""
+plasma-desktop(919)/libplasma Plasma::isPluginVersionCompatible: unversioned plugin detected, may result in instability 
+Object::connect: No such signal QDBusAbstractInterface::Changed()
+link XMLID_34_ hasn't been detected!
+link XMLID_34_ hasn't been detected!
+link XMLID_36_ hasn't been detected!
+plasma-desktop(919)/kdecore (KConfigSkeleton) KCoreConfigSkeleton::writeConfig:
+file:///usr/share/apps/plasma/plasmoids/notifier/contents/ui/devicenotifier.qml:167:5: QML QDeclarativeListView_QML_20: Possible anchor loop detected on vertical anchor.
+QGraphicsScene::addItem: item has already been added to this scene
+link XMLID_34_ hasn't been detected!
+link XMLID_34_ hasn't been detected!
+link XMLID_36_ hasn't been detected!
+plasma-desktop(919)/libakonadi Akonadi::AgentManagerPrivate::createDBusInterface: AgentManager failed to get a valid AgentManager DBus interface. Error is: 1 "org.freedesktop.DBus.Error.NameHasNoOwner" "Could not get owner of name 'org.freedesktop.Akonadi.Control': no such name" 
+Connecting to deprecated signal QDBusConnectionInterface::serviceOwnerChanged(QString,QString,QString)
+plasma-desktop(919)/libakonadi Akonadi::SessionPrivate::socketError: Socket error occurred: "QLocalSocket::connectToServer: Invalid name" 
+plasma-desktop(919)/libakonadi Akonadi::SessionPrivate::socketError: Socket error occurred: "QLocalSocket::connectToServer: Invalid name" 
+search paths:  ("/usr/local/bin", "/usr/bin", "/bin", "/usr/local/sbin", "/usr/sbin", "/sbin", "/usr/bin/core_perl", "/usr/sbin", "/usr/local/sbin", "/usr/local/libexec", "/usr/libexec", "/opt/mysql/libexec", "/opt/local/lib/mysql5/bin", "/opt/mysql/sbin") 
+Found mysql_install_db:  "/usr/bin/mysql_install_db" 
+Found mysqlcheck:  "/usr/bin/mysqlcheck" 
+QGridLayoutEngine::addItem: Cell (0, 1) already taken
+plasma-desktop(919)/kdecore (KConfigSkeleton) KCoreConfigSkeleton::writeConfig:
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+plasma-desktop(919)/kdecore (KConfigSkeleton) KCoreConfigSkeleton::writeConfig:
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+nepomukservicestub: No service name specified
+nepomukservicestub: Use --help to get a list of available command line options.
+akonadi.collectionattributetable                   OK
+akonadi.collectionmimetyperelation                 OK
+akonadi.collectionpimitemrelation                  OK
+akonadi.collectiontable                            OK
+akonadi.flagtable                                  OK
+akonadi.mimetypetable                              OK
+akonadi.parttable                                  OK
+akonadi.pimitemflagrelation                        OK
+akonadi.pimitemtable                               OK
+akonadi.resourcetable                              OK
+akonadi.schemaversiontable                         OK
+Database "akonadi" opened using driver "QMYSQL" 
+DbInitializer::run() 
+checking table  "SchemaVersionTable" 
+checking table  "ResourceTable" 
+checking table  "CollectionTable" 
+checking table  "MimeTypeTable" 
+checking table  "PimItemTable" 
+checking table  "FlagTable" 
+checking table  "PartTable" 
+checking table  "CollectionAttributeTable" 
+checking relation  "PimItemFlagRelation" 
+checking relation  "CollectionMimeTypeRelation" 
+checking relation  "CollectionPimItemRelation" 
+DbInitializer::run() done 
+skipping update 2 
+skipping update 3 
+skipping update 4 
+skipping update 8 
+skipping update 10 
+skipping update 12 
+skipping update 13 
+skipping update 14 
+skipping update 15 
+skipping update 16 
+skipping update 17 
+skipping update 18 
+skipping update 19 
+skipping update 20 
+Database "akonadi" opened using driver "QMYSQL" 
+Database "akonadi" opened using driver "QMYSQL" 
+Nepomuk Query Server not available 
+DataStore::unhideAllPimItems() 
+Connecting to deprecated signal QDBusConnectionInterface::serviceOwnerChanged(QString,QString,QString)
+Database "akonadi" opened using driver "QMYSQL" 
+PLUGINS:  "/usr/share/akonadi/agents" 
+PLUGINS:  ("akonadinepomukfeederagent.desktop", "akonotesresource.desktop", "birthdaysresource.desktop", "calendarsearchagent.desktop", "contactsresource.desktop", "davgroupwareresource.desktop", "icalresource.desktop", "imapresource.desktop", "invitationsagent.desktop", "kabcresource.desktop", "kalarmdirresource.desktop", "kalarmresource.desktop", "kcalresource.desktop", "kdeaccountsresource.desktop", "knutresource.desktop", "kolabproxyresource.desktop", "localbookmarksresource.desktop", "maildirresource.desktop", "maildispatcheragent.desktop", "mboxresource.desktop", "microblog.desktop", "mixedmaildirresource.desktop", "mtdummyresource.desktop", "nepomuktagresource.desktop", "nntpresource.desktop", "notesresource.desktop", "openxchangeresource.desktop", "pop3resource.desktop", "vcarddirresource.desktop", "vcardresource.desktop") 
+search paths:  ("/usr/local/bin", "/usr/bin", "/bin", "/usr/local/sbin", "/usr/sbin", "/sbin", "/usr/bin/core_perl") 
+PLUGINS inserting:  "akonadi_nepomuk_feeder" 0 ("Unique", "Autostart", "NoConfig") 
+PLUGINS inserting:  "akonadi_akonotes_resource" 1 ("Resource", "Notes") 
+PLUGINS inserting:  "akonadi_birthdays_resource" 0 ("Resource", "Unique") 
+PLUGINS inserting:  "akonadi_calendarsearch_agent" 0 ("Unique", "NoConfig") 
+PLUGINS inserting:  "akonadi_contacts_resource" 1 ("Resource") 
+PLUGINS inserting:  "akonadi_davgroupware_resource" 0 ("Resource", "FreeBusyProvider") 
+PLUGINS inserting:  "akonadi_ical_resource" 1 ("Resource") 
+PLUGINS inserting:  "akonadi_imap_resource" 0 ("Resource") 
+PLUGINS inserting:  "akonadi_invitations_agent" 0 ("NoConfig") 
+PLUGINS inserting:  "akonadi_kabc_resource" 0 ("Resource") 
+PLUGINS inserting:  "akonadi_kalarm_dir_resource" 0 ("Resource") 
+PLUGINS inserting:  "akonadi_kalarm_resource" 0 ("Resource") 
+PLUGINS inserting:  "akonadi_kcal_resource" 0 ("Resource") 
+PLUGINS inserting:  "akonadi_kdeaccounts_resource" 0 ("Resource") 
+PLUGINS inserting:  "akonadi_knut_resource" 0 ("Resource") 
+PLUGINS inserting:  "akonadi_kolabproxy_resource" 0 ("Resource", "Unique") 
+PLUGINS inserting:  "akonadi_localbookmarks_resource" 0 ("Resource") 
+PLUGINS inserting:  "akonadi_maildir_resource" 1 ("Resource") 
+PLUGINS inserting:  "akonadi_maildispatcher_agent" 0 ("Unique", "Autostart") 
+PLUGINS inserting:  "akonadi_mbox_resource" 0 ("Resource") 
+PLUGINS inserting:  "akonadi_microblog_resource" 0 ("Resource") 
+PLUGINS inserting:  "akonadi_mixedmaildir_resource" 0 ("Resource") 
+PLUGINS inserting:  "akonadi_mailtransport_dummy_resource" 0 ("Resource", "MailTransport") 
+PLUGINS inserting:  "akonadi_nepomuktag_resource" 0 ("Resource", "Virtual", "Unique", "NoConfig") 
+PLUGINS inserting:  "akonadi_nntp_resource" 0 ("Resource") 
+PLUGINS inserting:  "akonadi_notes_resource" 0 ("Resource") 
+PLUGINS inserting:  "akonadi_openxchange_resource" 0 ("Resource") 
+PLUGINS inserting:  "akonadi_pop3_resource" 0 ("Resource") 
+PLUGINS inserting:  "akonadi_vcarddir_resource" 0 ("Resource") 
+PLUGINS inserting:  "akonadi_vcard_resource" 0 ("Resource") 
+Akonadi server is now operational. 
+"/usr/bin/kactivitymanagerd(885)" Soprano: "org.freedesktop.DBus.Error.UnknownObject - No such object path '/org/soprano/Server'"
+"/usr/bin/kactivitymanagerd(885)" Soprano: "QLocalSocket::connectToServer: Invalid name"
+"/usr/bin/kdeinit4(959)" Soprano: "org.freedesktop.DBus.Error.UnknownObject - No such object path '/org/soprano/Server'"
+"/usr/bin/kdeinit4(959)" Soprano: "QLocalSocket::connectToServer: Invalid name"
+search paths:  ("/home/alycolas/.kde4/lib/kde4/plugins/", "/usr/lib/kde4/plugins/", "/usr/lib/qt/plugins", "/usr/bin", "/usr/lib/kde4/plugins", "/home/alycolas/.kde4/lib/kde4/", "/usr/lib/kde4/") 
+Database "akonadi" opened using driver "QMYSQL" 
+Database "akonadi" opened using driver "QMYSQL" 
+search paths:  ("/home/alycolas/.kde4/lib/kde4/plugins/", "/usr/lib/kde4/plugins/", "/usr/lib/qt/plugins", "/usr/bin", "/usr/lib/kde4/plugins", "/home/alycolas/.kde4/lib/kde4/", "/usr/lib/kde4/") 
+search paths:  ("/home/alycolas/.kde4/lib/kde4/plugins/", "/usr/lib/kde4/plugins/", "/usr/lib/qt/plugins", "/usr/bin", "/usr/lib/kde4/plugins", "/home/alycolas/.kde4/lib/kde4/", "/usr/lib/kde4/") 
+search paths:  ("/home/alycolas/.kde4/lib/kde4/plugins/", "/usr/lib/kde4/plugins/", "/usr/lib/qt/plugins", "/usr/bin", "/usr/lib/kde4/plugins", "/home/alycolas/.kde4/lib/kde4/", "/usr/lib/kde4/") 
+Invalid usage: expected: ./agent_launcher pluginName agentIdentifier 
+Invalid usage: expected: ./agent_launcher pluginName agentIdentifier 
+Known subscriber "AkonadiAgentServer" subscribes again 
+void Akonadi::NotificationSource::addClientServiceName(const QString&) Notification source "AkonadiAgentServer" now serving: (":1.30", ":1.29") 
+Known subscriber "AkonadiAgentServer" subscribes again 
+void Akonadi::NotificationSource::addClientServiceName(const QString&) Notification source "AkonadiAgentServer" now serving: (":1.30", ":1.29", ":1.28") 
+Known subscriber "AkonadiAgentServer" subscribes again 
+void Akonadi::NotificationSource::addClientServiceName(const QString&) Notification source "AkonadiAgentServer" now serving: (":1.30", ":1.29", ":1.28", ":1.31") 
+Invalid usage: expected: ./agent_launcher pluginName agentIdentifier 
+Invalid usage: expected: ./agent_launcher pluginName agentIdentifier 
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+Object::connect: No such signal QDBusAbstractInterface::StateChanged(uint)
+Agent instance created in separate process. 
+Known subscriber "AkonadiAgentServer" subscribes again 
+Agent instance created in separate process. 
+Known subscriber "AkonadiAgentServer" subscribes again 
+Agent instance created in separate process. 
+Known subscriber "AkonadiAgentServer" subscribes again 
+Database "akonadi" opened using driver "QMYSQL" 
+Agent instance created in separate process. 
+Known subscriber "AkonadiAgentServer" subscribes again 
+nepomukservicestub: No service name specified
+nepomukservicestub: Use --help to get a list of available command line options.
+Database "akonadi" opened using driver "QMYSQL" 
+Database "akonadi" opened using driver "QMYSQL" 
+Database "akonadi" opened using driver "QMYSQL" 
+QGridLayoutEngine::addItem: Cell (0, 1) already taken
+QGridLayoutEngine::addItem: Cell (1, 1) already taken
+Known subscriber "akonadi_maildispatcher_agent" subscribes again 
+Known subscriber "akonadi_maildispatcher_agent" subscribes again 
+Known subscriber "akonadi_maildispatcher_agent" subscribes again 
+Database "akonadi" opened using driver "QMYSQL" 
+[/usr/bin/nepomukservicestub] Using Virtuoso Version: "6.1.5.3127-pthreads"
+[/usr/bin/nepomukservicestub] Using Virtuoso Version: "6.1.5.3127-pthreads"
+[/usr/bin/nepomukservicestub] void Soprano::VirtuosoController::writeConfigFile(const QString&, const BackendSettings&) "/tmp/virtuoso_LhX962.ini"
+[/usr/bin/nepomukservicestub] Starting Virtuoso server: "/usr/bin/virtuoso-t" ("+foreground", "+configfile", "/tmp/virtuoso_LhX962.ini", "+wait")
+QGraphicsLinearLayout::removeAt: invalid index 1
+QGridLayoutEngine::addItem: Cell (0, 1) already taken
+QGridLayoutEngine::addItem: Cell (1, 1) already taken
+Warning: option --plugin-path no longer exists.
+[/usr/bin/nepomukservicestub] "
+"
+[/usr/bin/nepomukservicestub] "		Fri Jun 01 2012
+"
+[/usr/bin/nepomukservicestub] "19:13:33 OpenLink Virtuoso Universal Server
+"
+[/usr/bin/nepomukservicestub] "19:13:33 Version 06.01.3127-pthreads for Linux as of Apr 25 2012
+"
+[/usr/bin/nepomukservicestub] "19:13:33 uses parts of OpenSSL, PCRE, Html Tidy
+"
+Warning: option --plugin-path no longer exists.
+[0x9c27218] main services discovery error: no suitable services discovery module
+[/usr/bin/nepomukservicestub] "19:13:34 Database version 3126
+"
+plasma-desktop(919)/kdecore (KConfigSkeleton) KCoreConfigSkeleton::writeConfig:
+[/usr/bin/nepomukservicestub] "19:13:34 Entering Lite Mode
+"
+[/usr/bin/nepomukservicestub] "19:13:34 SQL Optimizer enabled (max 1000 layouts)
+"
+nepomukservicestub: No service name specified
+nepomukservicestub: Use --help to get a list of available command line options.
+[0x9ddc8d0] main input error: ES_OUT_RESET_PCR called
+[/usr/bin/nepomukservicestub] "19:13:35 Compiler unit is timed at 0.001409 msec
+"
+nepomukservicestub: No service name specified
+nepomukservicestub: Use --help to get a list of available command line options.
+[/usr/bin/nepomukservicestub] "19:13:36 Roll forward started
+"
+[/usr/bin/nepomukservicestub] "19:13:36     3 transactions, 155 bytes replayed (100 %)
+"
+[/usr/bin/nepomukservicestub] "19:13:36 Roll forward complete
+"
+[/usr/bin/nepomukservicestub] "19:13:36 Checkpoint started
+"
+[/usr/bin/nepomukservicestub] "19:13:37 Checkpoint finished, log reused
+"
+[/usr/bin/nepomukservicestub] "19:13:37 Server online at 1111 (pid 1020)
+"
+[/usr/bin/nepomukservicestub] Virtuoso started: 1020
+[/usr/bin/nepomukservicestub] Soprano::ODBC::ConnectionPool::ConnectionPool(const QString&, const QStringList&, QObject*) "host=localhost:1111;uid=dba;pwd=dba;driver=/usr/lib/virtodbc_r.so"
+[/usr/bin/nepomukservicestub] Soprano::ODBC::Connection::Connection() QThread(0x9b055f0)
+[/usr/bin/nepomukservicestub] "/usr/bin/nepomukservicestub(962)" Soprano: "SQLGetData for data length failed (iODBC Error: [OpenLink][Virtuoso iODBC Driver]CL056: Bookmarks not enable for statement)"
+[/usr/bin/nepomukservicestub] bool Soprano::Virtuoso::DatabaseConfigurator::updateFulltextIndexRules(bool) empty rule name!
+[/usr/bin/nepomukservicestub] virtual Soprano::ODBC::Connection::~Connection() QThread(0x9b055f0)
+[/usr/bin/nepomukservicestub] Soprano::ODBC::Connection::Connection() Nepomuk::GraphMaintainer(0x9c46f48)
+[/usr/bin/nepomukservicestub] Soprano::ODBC::Connection::Connection() QThread(0x9b055f0)
+[/usr/bin/nepomukservicestub] virtual Soprano::ODBC::Connection::~Connection() Nepomuk::GraphMaintainer(0x9c46f48)
+"/usr/bin/kactivitymanagerd(885)" Soprano: "org.freedesktop.DBus.Error.UnknownObject - No such object path '/org/soprano/Server'"
+"/usr/bin/kactivitymanagerd(885)" Soprano: "QLocalSocket::connectToServer: Invalid name"
+"/usr/bin/kdeinit4(959)" Soprano: "org.freedesktop.DBus.Error.UnknownObject - No such object path '/org/soprano/Server'"
+"/usr/bin/kdeinit4(959)" Soprano: "QLocalSocket::connectToServer: Invalid name"
+"/usr/bin/akonadi_nepomuk_feeder(983)" Soprano: "org.freedesktop.DBus.Error.UnknownObject - No such object path '/org/soprano/Server'"
+"/usr/bin/akonadi_nepomuk_feeder(983)" Soprano: "QLocalSocket::connectToServer: Invalid name"
+"/usr/bin/kactivitymanagerd(885)" Soprano: "org.freedesktop.DBus.Error.UnknownObject - No such object path '/org/soprano/Server'"
+"/usr/bin/kactivitymanagerd(885)" Soprano: "QLocalSocket::connectToServer: Invalid name"
+"/usr/bin/kdeinit4(959)" Soprano: "org.freedesktop.DBus.Error.UnknownObject - No such object path '/org/soprano/Server'"
+"/usr/bin/kdeinit4(959)" Soprano: "QLocalSocket::connectToServer: Invalid name"
+"/usr/bin/akonadi_nepomuk_feeder(983)" Soprano: "org.freedesktop.DBus.Error.UnknownObject - No such object path '/org/soprano/Server'"
+"/usr/bin/akonadi_nepomuk_feeder(983)" Soprano: "QLocalSocket::connectToServer: Invalid name"
+"/usr/bin/kactivitymanagerd(885)" Soprano: "org.freedesktop.DBus.Error.UnknownObject - No such object path '/org/soprano/Server'"
+"/usr/bin/kactivitymanagerd(885)" Soprano: "Unsupported operation (2)": "Invalid model"
+"/usr/bin/akonadi_nepomuk_feeder(983)" Soprano: "org.freedesktop.DBus.Error.UnknownObject - No such object path '/org/soprano/Server'"
+"/usr/bin/akonadi_nepomuk_feeder(983)" Soprano: "QLocalSocket::connectToServer: Invalid name"
+Known subscriber "akonadi_nepomuk_feeder" subscribes again 
+"/usr/bin/kactivitymanagerd(885)" Soprano: "org.freedesktop.DBus.Error.UnknownObject - No such object path '/org/soprano/Server'"
+"/usr/bin/kactivitymanagerd(885)" Soprano: "Unsupported operation (2)": "Invalid model"
+"/usr/bin/kactivitymanagerd(885)" Soprano: "Invalid iterator."
+"/usr/bin/kactivitymanagerd(885)" Soprano: "org.freedesktop.DBus.Error.UnknownObject - No such object path '/org/soprano/Server'"
+"/usr/bin/kactivitymanagerd(885)" Soprano: "Unsupported operation (2)": "Invalid model"
+Database "akonadi" opened using driver "QMYSQL" 
+"/usr/bin/kactivitymanagerd(885)" Soprano: "org.freedesktop.DBus.Error.UnknownObject - No such object path '/org/soprano/Server'"
+"/usr/bin/kactivitymanagerd(885)" Soprano: "Unsupported operation (2)": "Invalid model"
+"/usr/bin/kactivitymanagerd(885)" Soprano: "Invalid iterator."
+"/usr/bin/kactivitymanagerd(885)" Soprano: "org.freedesktop.DBus.Error.UnknownObject - No such object path '/org/soprano/Server'"
+"/usr/bin/kactivitymanagerd(885)" Soprano: "Unsupported operation (2)": "Invalid model"
+"/usr/bin/kactivitymanagerd(885)" Soprano: "org.freedesktop.DBus.Error.UnknownObject - No such object path '/org/soprano/Server'"
+"/usr/bin/kactivitymanagerd(885)" Soprano: "Unsupported operation (2)": "Invalid model"
+"/usr/bin/kactivitymanagerd(885)" Soprano: "Invalid iterator."
+"/usr/bin/kactivitymanagerd(885)" Soprano: "org.freedesktop.DBus.Error.UnknownObject - No such object path '/org/soprano/Server'"
+"/usr/bin/kactivitymanagerd(885)" Soprano: "Unsupported operation (2)": "Invalid model"
+"/usr/bin/kactivitymanagerd(885)" Soprano: "org.freedesktop.DBus.Error.UnknownObject - No such object path '/org/soprano/Server'"
+"/usr/bin/kactivitymanagerd(885)" Soprano: "Unsupported operation (2)": "Invalid model"
+"/usr/bin/kactivitymanagerd(885)" Soprano: "Invalid iterator."
+krunner(959)/libplasma Plasma::Package::isValid: Could not find required file mainscript 
+I/O warning : failed to load external entity "/home/alycolas/.qalculate/eurofxref-daily.xml"
+I/O warning : failed to load external entity "/home/alycolas/.qalculate/eurofxref-daily.xml"
+nepomukservicestub: No service name specified
+nepomukservicestub: Use --help to get a list of available command line options.
+"/usr/bin/akonadi_nepomuk_feeder(983)" Soprano: "org.freedesktop.DBus.Error.UnknownObject - No such object path '/org/soprano/Server'"
+"/usr/bin/kdeinit4(959)" Soprano: "org.freedesktop.DBus.Error.UnknownObject - No such object path '/org/soprano/Server'"
+"/usr/bin/kactivitymanagerd(885)" Soprano: "org.freedesktop.DBus.Error.UnknownObject - No such object path '/org/soprano/Server'"
+[/usr/bin/nepomukservicestub] virtual void Soprano::Server::LocalServer::incomingConnection(quintptr)
+[/usr/bin/nepomukservicestub] void Soprano::Server::ServerCorePrivate::addConnection(Soprano::Server::ServerConnection*) New connection. New count: 1
+[/usr/bin/nepomukservicestub] virtual void Soprano::Server::LocalServer::incomingConnection(quintptr)
+[/usr/bin/nepomukservicestub] void Soprano::Server::ServerCorePrivate::addConnection(Soprano::Server::ServerConnection*) New connection. New count: 2
+[/usr/bin/nepomukservicestub] virtual void Soprano::Server::LocalServer::incomingConnection(quintptr)
+[/usr/bin/nepomukservicestub] void Soprano::Server::ServerCorePrivate::addConnection(Soprano::Server::ServerConnection*) New connection. New count: 3
+Akonadi::NepomukSearchEngine(0x8b8bd80) QDBusServiceWatcher(0x8b48010) 
+[/usr/bin/nepomukservicestub] Soprano::ODBC::Connection::Connection() QThread(0x9f94070)
+[/usr/bin/nepomukservicestub] virtual void Soprano::Server::LocalServer::incomingConnection(quintptr)
+[/usr/bin/nepomukservicestub] void Soprano::Server::ServerCorePrivate::addConnection(Soprano::Server::ServerConnection*) New connection. New count: 4
+[/usr/bin/nepomukservicestub] virtual void Soprano::Server::LocalServer::incomingConnection(quintptr)
+[/usr/bin/nepomukservicestub] void Soprano::Server::ServerCorePrivate::addConnection(Soprano::Server::ServerConnection*) New connection. New count: 5
+[/usr/bin/nepomukservicestub] Soprano::ODBC::Connection::Connection() Soprano::Server::ServerConnection(0x9e76490)
+[/usr/bin/nepomukservicestub] virtual void Soprano::Server::LocalServer::incomingConnection(quintptr)
+[/usr/bin/nepomukservicestub] void Soprano::Server::ServerCorePrivate::addConnection(Soprano::Server::ServerConnection*) New connection. New count: 6
+[/usr/bin/nepomukservicestub] Soprano::ODBC::Connection::Connection() Soprano::Server::ServerConnection(0x9ca7910)
+[/usr/bin/nepomukservicestub] virtual void Soprano::Server::LocalServer::incomingConnection(quintptr)
+[/usr/bin/nepomukservicestub] void Soprano::Server::ServerCorePrivate::addConnection(Soprano::Server::ServerConnection*) New connection. New count: 7
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+[/usr/bin/nepomukservicestub] Soprano::ODBC::Connection::Connection() QThread(0x9c63728, name = "Thread (pooled)")
+[/usr/bin/nepomukservicestub] virtual void Soprano::Server::ServerConnection::run() thread done.
+[/usr/bin/nepomukservicestub] virtual Soprano::ODBC::Connection::~Connection() Soprano::Server::ServerConnection(0x9ca7910)
+[/usr/bin/nepomukservicestub] void Soprano::Server::ServerCore::serverConnectionFinished()
+[/usr/bin/nepomukservicestub] virtual Soprano::Server::ServerConnection::~ServerConnection() Removing connection
+[/usr/bin/nepomukservicestub] void Soprano::Server::ServerCore::serverConnectionFinished() Connection removed. Current count: 6
+[0x9e087e8] main input error: ES_OUT_RESET_PCR called
+New PolkitAgentListener  0x9e9ea50 
+Adding new listener  PolkitQt1::Agent::Listener(0x9f1a450) for  0x9e9ea50 
+plasma-desktop(919)/plasma StatusNotifierItemSource::refreshCallback: DBusMenu disabled for this application 
+[/usr/bin/nepomukservicestub] virtual Soprano::ODBC::Connection::~Connection() QThread(0x9f94070)
+[/usr/bin/nepomukservicestub] virtual void Soprano::Server::LocalServer::incomingConnection(quintptr)
+[/usr/bin/nepomukservicestub] void Soprano::Server::ServerCorePrivate::addConnection(Soprano::Server::ServerConnection*) New connection. New count: 7
+[/usr/bin/nepomukservicestub] Soprano::ODBC::Connection::Connection() Soprano::Server::ServerConnection(0x9c62d18)
+plasma-desktop(919)/kdecore (KConfigSkeleton) KCoreConfigSkeleton::writeConfig:
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f409a0), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8e83588)
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f409a0), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8e83588)
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f36958), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8e83588)
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f36958), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8e83588)
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f409a0), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8f46860)
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f409a0), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8f46860)
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f36958), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8f46860)
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f36958), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8f46860)
+[/usr/bin/nepomukservicestub] virtual void Soprano::Server::LocalServer::incomingConnection(quintptr)
+[/usr/bin/nepomukservicestub] void Soprano::Server::ServerCorePrivate::addConnection(Soprano::Server::ServerConnection*) New connection. New count: 8
+[/usr/bin/nepomukservicestub] virtual void Soprano::Server::LocalServer::incomingConnection(quintptr)
+[/usr/bin/nepomukservicestub] void Soprano::Server::ServerCorePrivate::addConnection(Soprano::Server::ServerConnection*) New connection. New count: 9
+[/usr/bin/nepomukservicestub] Soprano::ODBC::Connection::Connection() Soprano::Server::ServerConnection(0x9fe3ba8)
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+plasma-desktop(919)/plasma StatusNotifierItemSource::refreshCallback: DBusMenu disabled for this application 
+[/usr/bin/nepomukservicestub] virtual void Soprano::Server::ServerConnection::run() thread done.
+[/usr/bin/nepomukservicestub] virtual Soprano::ODBC::Connection::~Connection() Soprano::Server::ServerConnection(0x9fe3ba8)
+[/usr/bin/nepomukservicestub] void Soprano::Server::ServerCore::serverConnectionFinished() 
+virtual Soprano::Server::ServerConnection::~ServerConnection() Removing connection 
+void Soprano::Server::ServerCore::serverConnectionFinished() Connection removed. Current count: 8
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+plasma-desktop(919)/plasma StatusNotifierItemSource::refreshCallback: DBusMenu disabled for this application 
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f409a0), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8f46860)
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f409a0), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8f46860)
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f36958), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8f46860)
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f36958), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8f46860)
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f409a0), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8f46860)
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f409a0), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8f46860)
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f36958), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8f46860)
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f36958), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8f46860)
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f409a0), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8f46860)
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f409a0), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8f46860)
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f36958), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8f46860)
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f36958), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8f46860)
+klauncher(833) KRunMX1::expandEscapedMacro: -miniicon isn't supported anymore (service "XTerm" ) 
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+[/usr/bin/nepomukservicestub] virtual void Soprano::Server::LocalServer::incomingConnection(quintptr)
+[/usr/bin/nepomukservicestub] void Soprano::Server::ServerCorePrivate::addConnection(Soprano::Server::ServerConnection*) New connection. New count: 9
+[/usr/bin/nepomukservicestub] Soprano::ODBC::Connection::Connection() Soprano::Server::ServerConnection(0x9c83900)
+konsole(1198) Konsole::Session::closeInNormalWay: Process  1202  did not die with SIGHUP 
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f409a0), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8f46860)
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f409a0), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8f46860)
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f36958), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8f46860)
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f36958), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8f46860)
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f409a0), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8e54860)
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f409a0), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8e54860)
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f36958), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8e54860)
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f36958), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8e54860)
+[/usr/bin/nepomukservicestub] QObject::connect: Cannot connect XSyncBasedPoller::destroyed() to (null)::_k_x11FilterDestroyed()
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f409a0), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8f32370)
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f409a0), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8f32370)
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f36958), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8f32370)
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f36958), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8f32370)
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f409a0), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8f46860)
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f409a0), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8f46860)
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f36958), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8f46860)
+QObject: Cannot create children for a parent that is in a different thread.
+(Parent is Solid::Backends::UDisks::UDisksDevice(0x8f36958), parent's thread is QThread(0x8b4b5f0), current thread is ThreadWeaver::Thread(0x8f46860)
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+QGridLayoutEngine::addItem: Cell (1, 1) already taken
+plasma-desktop(919)/kdecore (KConfigSkeleton) KCoreConfigSkeleton::writeConfig:
+[/usr/bin/nepomukservicestub] virtual void Soprano::Server::ServerConnection::run() thread done.
+[/usr/bin/nepomukservicestub] virtual Soprano::ODBC::Connection::~Connection() Soprano::Server::ServerConnection(0x9c83900)
+[/usr/bin/nepomukservicestub] void Soprano::Server::ServerCore::serverConnectionFinished()
+[/usr/bin/nepomukservicestub] virtual Soprano::Server::ServerConnection::~ServerConnection() Removing connection
+[/usr/bin/nepomukservicestub] void Soprano::Server::ServerCore::serverConnectionFinished() Connection removed. Current count: 8
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+[/usr/bin/nepomukservicestub] nepomukstorage(962)/nepomuk (storage service): FIXME
+kaccess: Fatal IO error: client killed
+void Akonadi::NotificationSource::serviceUnregistered(const QString&) Notification source "plasma-desktop" now serving: () 
+void Akonadi::NotificationSource::unsubscribe() "plasma-desktop" 
+kdeinit4: Fatal IO error: client killed
+kdeinit4: sending SIGHUP to children.
+kded4: Fatal IO error: client killed
+Control process died, committing suicide!
+terminating service threads 
+kglobalaccel: Fatal IO error: client killed
+akonadi_agent_launcher: Fatal IO error: client killed
+klauncher: Exiting on signal 1
+kdeinit4: Fatal IO error: client killed
+kdeinit4: sending SIGHUP to children.
+akonadi_agent_launcher: Fatal IO error: client killed
+akonadi_agent_launcher: Fatal IO error: client killed
+akonadi_nepomuk_feeder: Fatal IO error: client killed
+akonadi_agent_launcher: Fatal IO error: client killed
+QProcess: Destroyed while process is still running.
+kdeinit4: sending SIGTERM to children.
+kdeinit4: Exit.
+NepomukServer(958)/kdecore (KConfigSkeleton) KCoreConfigSkeleton::writeConfig:
+akonadi_maildispatcher_agent: Fatal IO error: client killed
+terminating connection threads 
+stopping db process 
+ProcessControl: Application '/usr/bin/akonadi_nepomuk_feeder' returned with exit code 1 (Unknown error)
+ProcessControl: Application '/usr/bin/akonadi_agent_launcher' returned with exit code 1 (Unknown error)
+ProcessControl: Application '/usr/bin/akonadi_agent_launcher' returned with exit code 1 (Unknown error)
+ProcessControl: Application '/usr/bin/akonadi_agent_launcher' returned with exit code 1 (Unknown error)
+ProcessControl: Application '/usr/bin/akonadi_maildispatcher_agent' returned with exit code 1 (Unknown error)
+ProcessControl: Application '/usr/bin/akonadi_agent_launcher' returned with exit code 1 (Unknown error)
+akonadi_nepomuk_feeder: cannot connect to X server :0
+ProcessControl: Application '/usr/bin/akonadi_nepomuk_feeder' returned with exit code 1 (Unknown error)
+akonadi_maildispatcher_agent: cannot connect to X server :0
+ProcessControl: Application '/usr/bin/akonadi_maildispatcher_agent' returned with exit code 1 (Unknown error)
+akonadi_agent_launcher: cannot connect to X server :0
+ProcessControl: Application '/usr/bin/akonadi_agent_launcher' returned with exit code 1 (Unknown error)
+akonadi_agent_launcher: cannot connect to X server :0
+akonadi_agent_launcher: cannot connect to X server :0
+akonadi_agent_launcher: cannot connect to X server :0
+ProcessControl: Application '/usr/bin/akonadi_agent_launcher' returned with exit code 1 (Unknown error)
+ProcessControl: Application '/usr/bin/akonadi_agent_launcher' returned with exit code 1 (Unknown error)
+ProcessControl: Application '/usr/bin/akonadi_agent_launcher' returned with exit code 1 (Unknown error)
+akonadi_nepomuk_feeder: cannot connect to X server :0
+ProcessControl: Application '/usr/bin/akonadi_nepomuk_feeder' returned with exit code 1 (Unknown error)
+akonadi_agent_launcher: cannot connect to X server :0
+ProcessControl: Application '/usr/bin/akonadi_agent_launcher' returned with exit code 1 (Unknown error)
+akonadi_agent_launcher: cannot connect to X server :0
+ProcessControl: Application '/usr/bin/akonadi_agent_launcher' returned with exit code 1 (Unknown error)
+akonadi_agent_launcher: cannot connect to X server :0
+ProcessControl: Application '/usr/bin/akonadi_agent_launcher' returned with exit code 1 (Unknown error)
+akonadi_agent_launcher: cannot connect to X server :0
+ProcessControl: Application '/usr/bin/akonadi_agent_launcher' returned with exit code 1 (Unknown error)
+akonadi_maildispatcher_agent: cannot connect to X server :0
+ProcessControl: Application '/usr/bin/akonadi_maildispatcher_agent' returned with exit code 1 (Unknown error)
+akonadi_agent_launcher: cannot connect to X server :0
+ProcessControl: Application '/usr/bin/akonadi_agent_launcher' returned with exit code 1 (Unknown error)
+"/usr/bin/akonadi_agent_launcher" crashed too often and will not be restarted! 
+akonadi_agent_launcher: cannot connect to X server :0
+ProcessControl: Application '/usr/bin/akonadi_agent_launcher' returned with exit code 1 (Unknown error)
+"/usr/bin/akonadi_agent_launcher" crashed too often and will not be restarted! 
+akonadi_agent_launcher: cannot connect to X server :0
+akonadi_agent_launcher: cannot connect to X server :0
+ProcessControl: Application '/usr/bin/akonadi_agent_launcher' returned with exit code 1 (Unknown error)
+"/usr/bin/akonadi_agent_launcher" crashed too often and will not be restarted! 
+ProcessControl: Application '/usr/bin/akonadi_agent_launcher' returned with exit code 1 (Unknown error)
+"/usr/bin/akonadi_agent_launcher" crashed too often and will not be restarted! 
+akonadi_nepomuk_feeder: cannot connect to X server :0
+ProcessControl: Application '/usr/bin/akonadi_nepomuk_feeder' returned with exit code 1 (Unknown error)
+"/usr/bin/akonadi_nepomuk_feeder" crashed too often and will not be restarted! 
+akonadi_maildispatcher_agent: cannot connect to X server :0
+ProcessControl: Application '/usr/bin/akonadi_maildispatcher_agent' returned with exit code 1 (Unknown error)
+"/usr/bin/akonadi_maildispatcher_agent" crashed too often and will not be restarted! 
+kdeinit4: sending SIGTERM to children.
+kdeinit4: Exit.
+Application 'akonadiserver' exited normally...
+D-Bus session bus went down - quitting

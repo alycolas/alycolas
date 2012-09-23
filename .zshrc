@@ -1,3 +1,8 @@
+alias mount='sudo mount'
+alias umount='sudo umount'
+alias halt='sudo halt'
+alias reboot='sudo reboot'
+function cdl {cd $1; ls}
 alias slurm='slurm -i eth0'
 alias mount='sudo mount -o iocharset=utf8'
 alias mp4="mencoder -of lavf -lavfopts format=mp4 -oac lavc -ovc lavc -lavcopts aglobal=1:vglobal=1:acodec=libfaac:vcodec=mpeg4:abitrate=32:vbitrate=200:keyint=25:mbd=1:vqmax=10:lmax=10:vpass=1:turbo -ofps 15 -af lavcresample=44100 -vf harddup,scale=320:-3 -alang chi"

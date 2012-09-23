@@ -1,0 +1,175 @@
+
+this is a debug log for diagnosing/reporting problems in bzr
+you can delete or truncate this file, or include sections in
+bug reports to https://bugs.launchpad.net/bzr/+filebug
+
+六 2012-06-23 21:47:43 +0800
+0.722  bazaar version: 2.5.1
+0.722  bzr arguments: [u'revno', u'https://code.launchpad.net/~awn-core/awn/trunk']
+0.802  looking for plugins in /home/alycolas/.bazaar/plugins
+0.802  looking for plugins in /usr/lib/python2.7/site-packages/bzrlib/plugins
+0.956  encoding stdout as sys.stdin encoding 'UTF-8'
+1.154  failed to import pycurl: No module named pycurl
+1.157  failed to instantiate transport <bzrlib.registry._LazyObjectGetter object at a0a0644, module='bzrlib.transport.http._pycurl' attribute='PyCurlTransport' imported=False> for 'https://code.launchpad.net/~awn-core/awn/trunk': DependencyNotPresent(Unable to import library "pycurl": No module named pycurl)
+13.009  Transferred: 42kB (4.3kB/s r:36kB w:5kB)
+13.012  return code 0
+
+六 2012-06-23 21:47:57 +0800
+0.100  bazaar version: 2.5.1
+0.101  bzr arguments: [u'--no-plugins', u'branch', u'https://code.launchpad.net/~awn-core/awn/trunk', u'awn', u'-q', u'-r', u'830']
+0.131  encoding stdout as sys.stdout encoding 'UTF-8'
+0.170  failed to import pycurl: No module named pycurl
+0.171  failed to instantiate transport <bzrlib.registry._LazyObjectGetter object at 93b66bc, module='bzrlib.transport.http._pycurl' attribute='PyCurlTransport' imported=False> for 'https://code.launchpad.net/~awn-core/awn/trunk': DependencyNotPresent(Unable to import library "pycurl": No module named pycurl)
+13.825  creating repository in file:///tmp/avant-window-navigator-bzr/src/awn/.bzr/.
+14.224  Using fetch logic to copy between CHKInventoryRepository('http://bazaar.launchpad.net/~awn-core/awn/trunk/.bzr/repository/')(RepositoryFormat2a()) and CHKInventoryRepository('file:///tmp/avant-window-navigator-bzr/src/awn/.bzr/repository/')(RepositoryFormat2a())
+14.224  fetching: <PendingAncestryResult heads:frozenset(['rcryderman@gmail.com-20110420005233-dpvmtfv5knq476ed']) repo:CHKInventoryRepository('http://bazaar.launchpad.net/~awn-core/awn/trunk/.bzr/repository/')>
+41.790  23 bytes left on the HTTP socket
+60.991  23 bytes left on the HTTP socket
+74.057  23 bytes left on the HTTP socket
+95.122  23 bytes left on the HTTP socket
+96.115  Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/bzrlib/commands.py", line 920, in exception_to_return_code
+    return the_callable(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/bzrlib/commands.py", line 1131, in run_bzr
+    ret = run(*run_argv)
+  File "/usr/lib/python2.7/site-packages/bzrlib/commands.py", line 673, in run_argv_aliases
+    return self.run(**all_cmd_args)
+  File "/usr/lib/python2.7/site-packages/bzrlib/commands.py", line 695, in run
+    return self._operation.run_simple(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/bzrlib/cleanup.py", line 136, in run_simple
+    self.cleanups, self.func, *args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/bzrlib/cleanup.py", line 166, in _do_with_cleanups
+    result = func(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/bzrlib/builtins.py", line 1493, in run
+    source_branch=br_from)
+  File "/usr/lib/python2.7/site-packages/bzrlib/bzrdir.py", line 366, in sprout
+    create_tree_if_local=create_tree_if_local)
+  File "/usr/lib/python2.7/site-packages/bzrlib/cleanup.py", line 132, in run
+    self.cleanups, self.func, self, *args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/bzrlib/cleanup.py", line 166, in _do_with_cleanups
+    result = func(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/bzrlib/bzrdir.py", line 416, in _sprout
+    result_repo.fetch(source_repository, fetch_spec=fetch_spec)
+  File "/usr/lib/python2.7/site-packages/bzrlib/vf_repository.py", line 1267, in fetch
+    find_ghosts=find_ghosts, fetch_spec=fetch_spec)
+  File "/usr/lib/python2.7/site-packages/bzrlib/decorators.py", line 218, in write_locked
+    result = unbound(self, *args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/bzrlib/vf_repository.py", line 2584, in fetch
+    find_ghosts=find_ghosts)
+  File "/usr/lib/python2.7/site-packages/bzrlib/fetch.py", line 77, in __init__
+    self.__fetch()
+  File "/usr/lib/python2.7/site-packages/bzrlib/fetch.py", line 104, in __fetch
+    self._fetch_everything_for_search(search_result)
+  File "/usr/lib/python2.7/site-packages/bzrlib/fetch.py", line 132, in _fetch_everything_for_search
+    stream, from_format, [])
+  File "/usr/lib/python2.7/site-packages/bzrlib/vf_repository.py", line 2042, in insert_stream
+    src_format, is_resume)
+  File "/usr/lib/python2.7/site-packages/bzrlib/vf_repository.py", line 2106, in insert_stream_without_locking
+    self.target_repo.texts.insert_record_stream(substream)
+  File "/usr/lib/python2.7/site-packages/bzrlib/groupcompress.py", line 1643, in insert_record_stream
+    for _ in self._insert_record_stream(stream, random_id=False):
+  File "/usr/lib/python2.7/site-packages/bzrlib/groupcompress.py", line 1733, in _insert_record_stream
+    for record in stream:
+  File "/usr/lib/python2.7/site-packages/bzrlib/repofmt/groupcompress_repo.py", line 1254, in wrap_and_count
+    for record in stream:
+  File "/usr/lib/python2.7/site-packages/bzrlib/groupcompress.py", line 1456, in get_record_stream
+    orig_keys, ordering, include_delta_closure):
+  File "/usr/lib/python2.7/site-packages/bzrlib/groupcompress.py", line 1609, in _get_remaining_record_stream
+    for factory in batcher.yield_factories():
+  File "/usr/lib/python2.7/site-packages/bzrlib/groupcompress.py", line 1170, in yield_factories
+    block_read_memo, block = blocks.next()
+  File "/usr/lib/python2.7/site-packages/bzrlib/groupcompress.py", line 1412, in _get_blocks
+    zdata = raw_records.next()
+  File "/usr/lib/python2.7/site-packages/bzrlib/repofmt/pack_repo.py", line 2043, in get_raw_records
+    for names, read_func in reader.iter_records():
+  File "/usr/lib/python2.7/site-packages/bzrlib/pack.py", line 279, in iter_records
+    self._read_format()
+  File "/usr/lib/python2.7/site-packages/bzrlib/pack.py", line 320, in _read_format
+    format = self._read_line()
+  File "/usr/lib/python2.7/site-packages/bzrlib/pack.py", line 247, in _read_line
+    line = self._source.readline()
+  File "/usr/lib/python2.7/site-packages/bzrlib/pack.py", line 210, in readline
+    self._next()
+  File "/usr/lib/python2.7/site-packages/bzrlib/pack.py", line 195, in _next
+    offset, data = self.readv_result.next()
+  File "/usr/lib/python2.7/site-packages/bzrlib/transport/http/__init__.py", line 241, in _readv
+    for cur_coal, rfile in self._coalesce_readv(relpath, coalesced):
+  File "/usr/lib/python2.7/site-packages/bzrlib/transport/http/__init__.py", line 333, in _coalesce_readv
+    for c, rfile in get_and_yield(relpath, ranges):
+  File "/usr/lib/python2.7/site-packages/bzrlib/transport/http/__init__.py", line 296, in get_and_yield
+    code, rfile = self._get(relpath, coalesced)
+  File "/usr/lib/python2.7/site-packages/bzrlib/transport/http/_urllib.py", line 120, in _get
+    response = self._perform(request)
+  File "/usr/lib/python2.7/site-packages/bzrlib/transport/http/_urllib.py", line 76, in _perform
+    response = self._opener.open(request)
+  File "/usr/lib/python2.7/urllib2.py", line 400, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.7/urllib2.py", line 418, in _open
+    '_open', req)
+  File "/usr/lib/python2.7/urllib2.py", line 378, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.7/site-packages/bzrlib/transport/http/_urllib2_wrappers.py", line 889, in http_open
+    return self.do_open(HTTPConnection, request)
+  File "/usr/lib/python2.7/site-packages/bzrlib/transport/http/_urllib2_wrappers.py", line 825, in do_open
+    response = connection.getresponse()
+  File "/usr/lib/python2.7/site-packages/bzrlib/transport/http/_urllib2_wrappers.py", line 341, in getresponse
+    self._response = httplib.HTTPConnection.getresponse(self)
+  File "/usr/lib/python2.7/httplib.py", line 1030, in getresponse
+    response.begin()
+  File "/usr/lib/python2.7/site-packages/bzrlib/transport/http/_urllib2_wrappers.py", line 262, in begin
+    httplib.HTTPResponse.begin(self)
+  File "/usr/lib/python2.7/httplib.py", line 407, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python2.7/httplib.py", line 365, in _read_status
+    line = self.fp.readline()
+  File "/usr/lib/python2.7/site-packages/bzrlib/transport/http/_urllib2_wrappers.py", line 197, in readline
+    s = self.filesock.readline(size)
+  File "/usr/lib/python2.7/socket.py", line 447, in readline
+    data = self._sock.recv(self._rbufsize)
+KeyboardInterrupt
+
+96.120  return code 3
+
+六 2012-06-23 21:51:32 +0800
+0.103  bazaar version: 2.5.1
+0.103  bzr arguments: [u'revno', u'https://code.launchpad.net/~awn-core/awn/trunk']
+0.120  looking for plugins in /home/alycolas/.bazaar/plugins
+0.120  looking for plugins in /usr/lib/python2.7/site-packages/bzrlib/plugins
+0.146  encoding stdout as sys.stdin encoding 'UTF-8'
+0.165  failed to import pycurl: No module named pycurl
+0.166  failed to instantiate transport <bzrlib.registry._LazyObjectGetter object at 956e66c, module='bzrlib.transport.http._pycurl' attribute='PyCurlTransport' imported=False> for 'https://code.launchpad.net/~awn-core/awn/trunk': DependencyNotPresent(Unable to import library "pycurl": No module named pycurl)
+11.349  Transferred: 42kB (4.4kB/s r:36kB w:5kB)
+11.349  return code 0
+
+六 2012-06-23 21:54:41 +0800
+0.100  bazaar version: 2.5.1
+0.101  bzr arguments: [u'revno', u'https://code.launchpad.net/~awn-extras/awn-extras/trunk']
+0.117  looking for plugins in /home/alycolas/.bazaar/plugins
+0.117  looking for plugins in /usr/lib/python2.7/site-packages/bzrlib/plugins
+0.143  encoding stdout as sys.stdin encoding 'UTF-8'
+0.163  failed to import pycurl: No module named pycurl
+0.164  failed to instantiate transport <bzrlib.registry._LazyObjectGetter object at 9b4e66c, module='bzrlib.transport.http._pycurl' attribute='PyCurlTransport' imported=False> for 'https://code.launchpad.net/~awn-extras/awn-extras/trunk': DependencyNotPresent(Unable to import library "pycurl": No module named pycurl)
+15.281  Transferred: 250kB (18.8kB/s r:245kB w:6kB)
+15.281  return code 0
+
+六 2012-06-23 21:55:33 +0800
+0.103  bazaar version: 2.5.1
+0.104  bzr arguments: [u'revno', u'https://code.launchpad.net/~awn-core/awn/trunk']
+0.120  looking for plugins in /home/alycolas/.bazaar/plugins
+0.120  looking for plugins in /usr/lib/python2.7/site-packages/bzrlib/plugins
+0.148  encoding stdout as sys.stdin encoding 'UTF-8'
+0.167  failed to import pycurl: No module named pycurl
+0.168  failed to instantiate transport <bzrlib.registry._LazyObjectGetter object at a13a66c, module='bzrlib.transport.http._pycurl' attribute='PyCurlTransport' imported=False> for 'https://code.launchpad.net/~awn-core/awn/trunk': DependencyNotPresent(Unable to import library "pycurl": No module named pycurl)
+11.435  Transferred: 42kB (4.4kB/s r:36kB w:5kB)
+11.435  return code 0
+
+六 2012-06-23 21:59:57 +0800
+0.101  bazaar version: 2.5.1
+0.101  bzr arguments: [u'revno', u'https://code.launchpad.net/~awn-core/awn/trunk']
+0.117  looking for plugins in /home/alycolas/.bazaar/plugins
+0.117  looking for plugins in /usr/lib/python2.7/site-packages/bzrlib/plugins
+0.146  encoding stdout as sys.stdin encoding 'UTF-8'
+0.166  failed to import pycurl: No module named pycurl
+0.167  failed to instantiate transport <bzrlib.registry._LazyObjectGetter object at b6ac766c, module='bzrlib.transport.http._pycurl' attribute='PyCurlTransport' imported=False> for 'https://code.launchpad.net/~awn-core/awn/trunk': DependencyNotPresent(Unable to import library "pycurl": No module named pycurl)
+11.694  Transferred: 42kB (4.4kB/s r:36kB w:5kB)
+11.695  return code 0

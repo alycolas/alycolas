@@ -101,11 +101,7 @@
  <match target="font">
   <test target="pattern" compare="contains" name="lang">
    <string>zh</string>
-  </test>
-  <test target="pattern" compare="contains" name="lang">
    <string>ja</string>
-  </test>
-  <test target="pattern" compare="contains" name="lang">
    <string>ko</string>
   </test>
   <edit name="spacing">
@@ -119,8 +115,6 @@
  <match target="pattern">
   <test name="family" qual="any">
    <string>AR PL ShanHeiSun Uni</string>
-  </test>
-  <test name="family" qual="any">
    <string>AR PL New Sung</string>
   </test>
   <test compare="more_eq" name="pixelsize">
@@ -136,20 +130,10 @@
  <match target="pattern">
   <test name="family">
    <string>SimSun</string>
-  </test>
-  <test name="family">
    <string>SimSun-18030</string>
-  </test>
-  <test name="family">
    <string>AR PL ShanHeiSun Uni</string>
-  </test>
-  <test name="family">
    <string>AR PL New Sung</string>
-  </test>
-  <test name="family">
    <string>MingLiU</string>
-  </test>
-  <test name="family">
    <string>PMingLiU</string>
   </test>
   <edit binding="strong" mode="prepend" name="family">
