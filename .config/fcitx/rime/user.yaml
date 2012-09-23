@@ -1,0 +1,5 @@
+var:
+  option:
+    extended_charset: true
+    simplification: false
+  previously_selected_schema: wubi_pinyin
