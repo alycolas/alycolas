@@ -1,4 +1,3 @@
-alias mount='sudo mount'
 alias umount='sudo umount'
 alias halt='sudo halt'
 alias reboot='sudo reboot'
@@ -40,9 +39,10 @@ alias ppp-off='sudo /usr/sbin/ppp-off'
 alias firestarter='sudo su -c firestarter'
 alias mpg123='mpg123 -o oss'
 alias mpg321='mpg123 -o oss'
-alias vba='/home/paul/downloads/VisualBoyAdvance -f 4'
-alias hist="grep '$1' /home/paul/.zsh_history"
-alias irssi="irssi -c irc.freenode.net -n yyz"
+alias vba='~/downloads/VisualBoyAdvance -f 4'
+alias hdir="grep -r '$1' ~/.zsh_history"
+alias h="histall | grep "
+alias irssi="irssi -c irc.freenode.net -n aly"
 alias mem="free -m"
 alias msn="tmsnc -l hutchy@subdimension.com"
 ##命令提示符 {{{
@@ -79,7 +79,7 @@ setopt AUTO_PUSHD
 setopt PUSHD_IGNORE_DUPS
 
 #在命令前添加空格，不将此命令添加到纪录文件中
-#setopt HIST_IGNORE_SPACE      
+setopt HIST_IGNORE_SPACE      
 #}}}
 
 #每个目录使用独立的历史纪录{{{
@@ -100,7 +100,7 @@ cd() {
 mkdir -p $HOME/.zsh_history$PWD
 export HISTFILE="$HOME/.zsh_history$PWD/zhistory"
 
-function allhistory { cat $(find $HOME/.zsh_history -name zhistory) }
+function allhistory { find $HOME/.zsh_history -name zhistory | sed "s/^/'/g" | sed "s/$/'/g" | xargs cat }
 function convhistory {
             sort $1 | uniq |
             sed 's/^:\([ 0-9]*\):[0-9]*;\(.*\)/\1::::::\2/' |
