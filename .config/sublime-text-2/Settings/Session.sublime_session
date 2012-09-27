@@ -26,13 +26,10 @@
 					}
 				},
 				{
-					"contents": "// Settings in here override those in \"Default/Preferences.sublime-settings\", and\n// are overridden in turn by file type specific settings.\n{\n					\n}\n",
 					"file": "/home/alycolas/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
-					"file_size": 144,
-					"file_write_time": 1342621960000000,
 					"settings":
 					{
-						"buffer_size": 150,
+						"buffer_size": 71,
 						"line_ending": "Unix"
 					}
 				}
@@ -96,7 +93,7 @@
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 1,
 					"sheets":
 					[
 						{
@@ -130,15 +127,15 @@
 							"file": "/home/alycolas/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
 							"settings":
 							{
-								"buffer_size": 150,
+								"buffer_size": 71,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										147,
-										147
+										71,
+										71
 									]
 								],
 								"settings":
@@ -185,7 +182,7 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "0,0,0,0,0,0,502,970,1014,1280,1024",
+			"position": "0,0,0,0,0,640,18,1278,1022,1280,1024",
 			"replace":
 			{
 				"height": 0.0

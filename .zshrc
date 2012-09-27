@@ -1,4 +1,5 @@
-alias umount='sudo umount'
+alias df='df -h'
+alias du='du -m | sort -n'
 alias halt='sudo halt'
 alias reboot='sudo reboot'
 function cdl {cd $1; ls}
@@ -40,7 +41,8 @@ alias firestarter='sudo su -c firestarter'
 alias mpg123='mpg123 -o oss'
 alias mpg321='mpg123 -o oss'
 alias vba='~/downloads/VisualBoyAdvance -f 4'
-alias hdir="grep -r '$1' ~/.zsh_history"
+#alias hdir="grep $1 -r ~/.zsh_history"
+function hdir {grep $1 -r ~/.zsh_history --color=auto}
 alias h="histall | grep "
 alias irssi="irssi -c irc.freenode.net -n aly"
 alias mem="free -m"
@@ -458,4 +460,3 @@ function timeconv { date -d @$1 +"%Y-%m-%d %T" }
 #
 #setprompt      
 set -o vi
-alias du='du -h'

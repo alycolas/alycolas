@@ -1,18 +1,9 @@
-shell dd
-open_with 
-rm
-h
-open_with 7zip
-open_with 7z
-
-shell d
 search mp
 help
 ls -a
 mplayer
 shell mplayer
 shell mplayer 
-shell 
 open_with k
 wq
 m
@@ -24,3 +15,36 @@ open_with
 shell gvim
 gvim excel.txt
 open_with vlc
+;
+h
+help 
+delete seriously? 
+open_with ~/lixian/mp4_join.py
+open_with 
+shell ~/lixian/mp4_join.py %f
+shell mplayer %f
+shell mp4_join.py
+shell mp4_join.py --output 葫芦娃8.mp4
+shell mp4_join.py --output 葫芦娃8.mp4 %f
+shell mp4_join.py --output 葫芦娃2.mp4 %f
+shell mp4_join.py --output 葫芦娃3.mp4 %f
+shell mp4_join.py --output 葫芦娃AA.mp4 %f
+shell mp4_join.py --output 葫芦娃AC.mp4 %f
+shell mp4_join.py --output 葫芦娃E.mp4 %f
+shell mp4_join.py --output 葫芦娃B.mp4 %f
+shell mp4_join.py --output 葫芦娃rB.mp4 %f
+shell mp4_join.py --output 葫芦娃8.mp4 %s
+shell mp4_join.py --output 葫芦娃2.mp4 %s
+shell mp4_join.py --output 葫芦娃3.mp4 %s
+shell mp4_join.py --output 葫芦娃C.mp4 %s
+shell mp4_join.py --output 葫芦娃AA.mp4 %s
+shell mp4_join.py --output 葫芦娃AC.mp4 %s
+shell mp4_join.py --output 葫芦娃E.mp4 %s
+shell mp4_join.py --output 葫芦娃B.mp4 %s
+
+rename 葫芦娃A.mp4
+shell 
+rename 葫芦娃9.mp4
+rename 葫芦娃.mp4
+delete seriously? y
+open_with unrar x

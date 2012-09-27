@@ -722,7 +722,7 @@ freetype-font=Century Schoolbook L
 [podcast] # Podcasts
 
 # Podcast URLs list (string)
-#podcast-urls=
+podcast-urls=http://downloads.bbc.co.uk/podcasts/radio3/r3intune/rss.xml|http://hd.engadget.com/category/podcasts/rss.xml|http://feed.theplatform.com/f/KI6AEB/XslsIUjEX5Dm|http://www.youku.com/index/rss_cool_v|http://gdata.youtube.com/feeds/base/users/OMGmeiyu/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile|http://feeds2.feedburner.com/AllJupiterVideos
 
 [sap] # Network streams (SAP)
 
@@ -3090,16 +3090,16 @@ qt-privacy-ask=0
 [equalizer] # Equalizer with 10 bands
 
 # Equalizer preset (string)
-#equalizer-preset=flat
+equalizer-preset=pop
 
 # Bands gain (string)
-#equalizer-bands=
+equalizer-bands=  -1.6   4.8   7.2   8.0   5.6  -0.0  -2.4  -2.4  -1.6  -1.6
 
 # Two pass (boolean)
 #equalizer-2pass=0
 
 # Global gain (float)
-#equalizer-preamp=12.000000
+equalizer-preamp=6.000000
 
 [compressor] # Dynamic range compressor
 
@@ -3107,22 +3107,22 @@ qt-privacy-ask=0
 #compressor-rms-peak=0.000000
 
 # Attack time (float)
-#compressor-attack=25.000000
+compressor-attack=1.400000
 
 # Release time (float)
-#compressor-release=100.000000
+compressor-release=1.900000
 
 # Threshold level (float)
-#compressor-threshold=-11.000000
+compressor-threshold=0.000000
 
 # Ratio (float)
-#compressor-ratio=8.000000
+compressor-ratio=1.000000
 
 # Knee radius (float)
-#compressor-knee=2.500000
+compressor-knee=1.000000
 
 # Makeup gain (float)
-#compressor-makeup-gain=7.000000
+compressor-makeup-gain=0.000000
 
 [a52tofloat32] # ATSC A/52 (AC-3) audio decoder
 
@@ -3420,7 +3420,7 @@ qt-privacy-ask=0
 #audio=1
 
 # Default audio volume (integer)
-volume=249
+volume=140
 
 # Audio output volume step (integer)
 #volume-step=32
@@ -3456,7 +3456,7 @@ volume=249
 #aout=
 
 # Audio filters (string)
-#audio-filter=
+audio-filter=equalizer
 
 # Audio visualizations  (string)
 #audio-visual=
@@ -3900,7 +3900,7 @@ cd-audio=/dev/dvd
 #repeat=0
 
 # Play and exit (boolean)
-#play-and-exit=0
+play-and-exit=1
 
 # Play and stop (boolean)
 #play-and-stop=0

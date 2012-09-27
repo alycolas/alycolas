@@ -34,10 +34,10 @@
     <Statusbar value='1'/>
     <Category value='1'/>
     <Summary value='1'/>
-    <x value='95'/>
-    <y value='169'/>
-    <width value='974'/>
-    <height value='512'/>
+    <x value='640'/>
+    <y value='18'/>
+    <width value='638'/>
+    <height value='1004'/>
     <maximized value='0'/>
   </Window>
   <UserInterface>

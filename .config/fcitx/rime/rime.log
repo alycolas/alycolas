@@ -1,51 +1,56 @@
-[Sun Sep 23 03:05:34 2012] common.cc           (00051) RegisterComponents():  registering built-in components
-[Sun Sep 23 03:05:34 2012] registry.cc         (00018)         Register():  registering component: config
-[Sun Sep 23 03:05:34 2012] registry.cc         (00018)         Register():  registering component: schema_config
-[Sun Sep 23 03:05:34 2012] registry.cc         (00018)         Register():  registering component: dictionary
-[Sun Sep 23 03:05:34 2012] registry.cc         (00018)         Register():  registering component: reverse_lookup_dictionary
-[Sun Sep 23 03:05:34 2012] registry.cc         (00018)         Register():  registering component: user_dictionary
-[Sun Sep 23 03:05:34 2012] registry.cc         (00018)         Register():  registering component: ascii_composer
-[Sun Sep 23 03:05:34 2012] registry.cc         (00018)         Register():  registering component: chord_composer
-[Sun Sep 23 03:05:34 2012] registry.cc         (00018)         Register():  registering component: express_editor
-[Sun Sep 23 03:05:34 2012] registry.cc         (00018)         Register():  registering component: fluency_editor
-[Sun Sep 23 03:05:34 2012] registry.cc         (00018)         Register():  registering component: key_binder
-[Sun Sep 23 03:05:34 2012] registry.cc         (00018)         Register():  registering component: navigator
-[Sun Sep 23 03:05:34 2012] registry.cc         (00018)         Register():  registering component: punctuator
-[Sun Sep 23 03:05:34 2012] registry.cc         (00018)         Register():  registering component: recognizer
-[Sun Sep 23 03:05:34 2012] registry.cc         (00018)         Register():  registering component: selector
-[Sun Sep 23 03:05:34 2012] registry.cc         (00018)         Register():  registering component: speller
-[Sun Sep 23 03:05:34 2012] registry.cc         (00018)         Register():  registering component: abc_segmentor
-[Sun Sep 23 03:05:34 2012] registry.cc         (00018)         Register():  registering component: ascii_segmentor
-[Sun Sep 23 03:05:34 2012] registry.cc         (00018)         Register():  registering component: matcher
-[Sun Sep 23 03:05:34 2012] registry.cc         (00018)         Register():  registering component: punct_segmentor
-[Sun Sep 23 03:05:34 2012] registry.cc         (00018)         Register():  registering component: fallback_segmentor
-[Sun Sep 23 03:05:34 2012] registry.cc         (00018)         Register():  registering component: echo_translator
-[Sun Sep 23 03:05:34 2012] registry.cc         (00018)         Register():  registering component: punct_translator
-[Sun Sep 23 03:05:34 2012] registry.cc         (00018)         Register():  registering component: table_translator
-[Sun Sep 23 03:05:34 2012] registry.cc         (00018)         Register():  registering component: r10n_translator
-[Sun Sep 23 03:05:34 2012] registry.cc         (00018)         Register():  registering component: reverse_lookup_translator
-[Sun Sep 23 03:05:34 2012] registry.cc         (00018)         Register():  registering component: simplifier
-[Sun Sep 23 03:05:34 2012] registry.cc         (00018)         Register():  registering component: uniquifier
-[Sun Sep 23 03:05:34 2012] deployment_tasks.cc (00028)              Run():  updating rime installation.
-[Sun Sep 23 03:05:34 2012] config.cc           (00411)     LoadFromFile():  loading config file '/home/alycolas/.config/fcitx/rime/installation.yaml'.
-[Sun Sep 23 03:05:35 2012] deployment_tasks.cc (00039)              Run():  installation info exists. installation id: a51c4149-e809-409a-80c3-de3b06c25dc9
-[Sun Sep 23 03:05:35 2012] deployment_tasks.cc (00045)              Run():  previous distribution: fcitx-rime
-[Sun Sep 23 03:05:35 2012] deployment_tasks.cc (00049)              Run():  previous distribution version: 0.1
-[Sun Sep 23 03:05:35 2012] deployment_tasks.cc (00053)              Run():  previous Rime version: 0.9.2
-[Sun Sep 23 03:05:35 2012] config.cc           (00411)     LoadFromFile():  loading config file '/home/alycolas/.config/fcitx/rime/default.yaml'.
-[Sun Sep 23 03:05:35 2012] config.cc           (00411)     LoadFromFile():  loading config file '/usr/share/fcitx/rime/default.yaml'.
-[Sun Sep 23 03:05:35 2012] customizer.cc       (00098) UpdateConfigFile():  config file '/home/alycolas/.config/fcitx/rime/default.yaml' is up-to-date.
-[Sun Sep 23 03:05:35 2012] config.cc           (00411)     LoadFromFile():  loading config file '/home/alycolas/.config/fcitx/rime/default.yaml'.
-[Sun Sep 23 03:05:35 2012] config.cc           (00411)     LoadFromFile():  loading config file '/home/alycolas/.config/fcitx/rime/user.yaml'.
-[Sun Sep 23 03:05:35 2012] config.cc           (00411)     LoadFromFile():  loading config file '/home/alycolas/.config/fcitx/rime/wubi_pinyin.schema.yaml'.
-[Sun Sep 23 03:05:35 2012] engine.cc           (00071)   ConcreteEngine():  Entering function , ConcreteEngine
-[Sun Sep 23 03:05:35 2012] engine.cc           (00112)   OnOptionUpdate():  option = 'auto_commit'
-[Sun Sep 23 03:05:35 2012] dictionary.cc       (00267)             Load():  Entering function , Load
-[Sun Sep 23 03:05:35 2012] table.cc            (00195)             Load():  Load file: /home/alycolas/.config/fcitx/rime/wubi86.table.bin
-[Sun Sep 23 03:05:35 2012] prism.cc            (00075)             Load():  Load file: /home/alycolas/.config/fcitx/rime/wubi_pinyin.prism.bin
-[Sun Sep 23 03:05:35 2012] prism.cc            (00102)             Load():  Found double array image of size 208640.
-[Sun Sep 23 03:05:35 2012] dictionary.cc       (00267)             Load():  Exiting function , Load
-[Sun Sep 23 03:05:35 2012] engine.cc           (00112)   OnOptionUpdate():  option = 'ascii_mode'
-[Sun Sep 23 03:05:35 2012] engine.cc           (00071)   ConcreteEngine():  Exiting function , ConcreteEngine
-[Sun Sep 23 03:05:35 2012] engine.cc           (00112)   OnOptionUpdate():  option = 'extended_charset'
-[Sun Sep 23 03:05:35 2012] engine.cc           (00112)   OnOptionUpdate():  option = 'simplification'
+[Thu Sep 27 15:48:33 2012] common.cc           (00051) RegisterComponents():  registering built-in components
+[Thu Sep 27 15:48:33 2012] registry.cc         (00018)         Register():  registering component: config
+[Thu Sep 27 15:48:33 2012] registry.cc         (00018)         Register():  registering component: schema_config
+[Thu Sep 27 15:48:33 2012] registry.cc         (00018)         Register():  registering component: dictionary
+[Thu Sep 27 15:48:33 2012] registry.cc         (00018)         Register():  registering component: reverse_lookup_dictionary
+[Thu Sep 27 15:48:33 2012] registry.cc         (00018)         Register():  registering component: user_dictionary
+[Thu Sep 27 15:48:33 2012] registry.cc         (00018)         Register():  registering component: ascii_composer
+[Thu Sep 27 15:48:33 2012] registry.cc         (00018)         Register():  registering component: chord_composer
+[Thu Sep 27 15:48:33 2012] registry.cc         (00018)         Register():  registering component: express_editor
+[Thu Sep 27 15:48:33 2012] registry.cc         (00018)         Register():  registering component: fluency_editor
+[Thu Sep 27 15:48:33 2012] registry.cc         (00018)         Register():  registering component: key_binder
+[Thu Sep 27 15:48:33 2012] registry.cc         (00018)         Register():  registering component: navigator
+[Thu Sep 27 15:48:33 2012] registry.cc         (00018)         Register():  registering component: punctuator
+[Thu Sep 27 15:48:33 2012] registry.cc         (00018)         Register():  registering component: recognizer
+[Thu Sep 27 15:48:33 2012] registry.cc         (00018)         Register():  registering component: selector
+[Thu Sep 27 15:48:33 2012] registry.cc         (00018)         Register():  registering component: speller
+[Thu Sep 27 15:48:33 2012] registry.cc         (00018)         Register():  registering component: abc_segmentor
+[Thu Sep 27 15:48:33 2012] registry.cc         (00018)         Register():  registering component: ascii_segmentor
+[Thu Sep 27 15:48:33 2012] registry.cc         (00018)         Register():  registering component: matcher
+[Thu Sep 27 15:48:33 2012] registry.cc         (00018)         Register():  registering component: punct_segmentor
+[Thu Sep 27 15:48:33 2012] registry.cc         (00018)         Register():  registering component: fallback_segmentor
+[Thu Sep 27 15:48:33 2012] registry.cc         (00018)         Register():  registering component: echo_translator
+[Thu Sep 27 15:48:33 2012] registry.cc         (00018)         Register():  registering component: punct_translator
+[Thu Sep 27 15:48:33 2012] registry.cc         (00018)         Register():  registering component: table_translator
+[Thu Sep 27 15:48:33 2012] registry.cc         (00018)         Register():  registering component: r10n_translator
+[Thu Sep 27 15:48:33 2012] registry.cc         (00018)         Register():  registering component: reverse_lookup_translator
+[Thu Sep 27 15:48:33 2012] registry.cc         (00018)         Register():  registering component: simplifier
+[Thu Sep 27 15:48:33 2012] registry.cc         (00018)         Register():  registering component: uniquifier
+[Thu Sep 27 15:48:34 2012] deployment_tasks.cc (00028)              Run():  updating rime installation.
+[Thu Sep 27 15:48:34 2012] config.cc           (00411)     LoadFromFile():  loading config file '/home/alycolas/.config/fcitx/rime/installation.yaml'.
+[Thu Sep 27 15:48:34 2012] deployment_tasks.cc (00039)              Run():  installation info exists. installation id: a51c4149-e809-409a-80c3-de3b06c25dc9
+[Thu Sep 27 15:48:34 2012] deployment_tasks.cc (00045)              Run():  previous distribution: fcitx-rime
+[Thu Sep 27 15:48:34 2012] deployment_tasks.cc (00049)              Run():  previous distribution version: 0.1
+[Thu Sep 27 15:48:34 2012] deployment_tasks.cc (00053)              Run():  previous Rime version: 0.9.2
+[Thu Sep 27 15:48:34 2012] config.cc           (00411)     LoadFromFile():  loading config file '/home/alycolas/.config/fcitx/rime/default.yaml'.
+[Thu Sep 27 15:48:34 2012] config.cc           (00411)     LoadFromFile():  loading config file '/usr/share/fcitx/rime/default.yaml'.
+[Thu Sep 27 15:48:34 2012] customizer.cc       (00098) UpdateConfigFile():  config file '/home/alycolas/.config/fcitx/rime/default.yaml' is up-to-date.
+[Thu Sep 27 15:48:34 2012] config.cc           (00411)     LoadFromFile():  loading config file '/home/alycolas/.config/fcitx/rime/default.yaml'.
+[Thu Sep 27 15:48:34 2012] config.cc           (00411)     LoadFromFile():  loading config file '/home/alycolas/.config/fcitx/rime/user.yaml'.
+[Thu Sep 27 15:48:34 2012] config.cc           (00411)     LoadFromFile():  loading config file '/home/alycolas/.config/fcitx/rime/wubi_pinyin.schema.yaml'.
+[Thu Sep 27 15:48:34 2012] engine.cc           (00071)   ConcreteEngine():  Entering function , ConcreteEngine
+[Thu Sep 27 15:48:34 2012] engine.cc           (00112)   OnOptionUpdate():  option = 'auto_commit'
+[Thu Sep 27 15:48:34 2012] dictionary.cc       (00267)             Load():  Entering function , Load
+[Thu Sep 27 15:48:34 2012] table.cc            (00195)             Load():  Load file: /home/alycolas/.config/fcitx/rime/wubi86.table.bin
+[Thu Sep 27 15:48:34 2012] prism.cc            (00075)             Load():  Load file: /home/alycolas/.config/fcitx/rime/wubi_pinyin.prism.bin
+[Thu Sep 27 15:48:34 2012] prism.cc            (00102)             Load():  Found double array image of size 208640.
+[Thu Sep 27 15:48:34 2012] dictionary.cc       (00267)             Load():  Exiting function , Load
+[Thu Sep 27 15:48:34 2012] engine.cc           (00112)   OnOptionUpdate():  option = 'ascii_mode'
+[Thu Sep 27 15:48:34 2012] engine.cc           (00071)   ConcreteEngine():  Exiting function , ConcreteEngine
+[Thu Sep 27 15:48:34 2012] engine.cc           (00112)   OnOptionUpdate():  option = 'extended_charset'
+[Thu Sep 27 15:48:34 2012] engine.cc           (00112)   OnOptionUpdate():  option = 'simplification'
+[Thu Sep 27 20:29:03 2012] dictionary.cc       (00267)             Load():  Entering function , Load
+[Thu Sep 27 20:29:03 2012] table.cc            (00195)             Load():  Load file: /home/alycolas/.config/fcitx/rime/pinyin_simp.table.bin
+[Thu Sep 27 20:29:03 2012] prism.cc            (00075)             Load():  Load file: /home/alycolas/.config/fcitx/rime/pinyin_simp.prism.bin
+[Thu Sep 27 20:29:03 2012] prism.cc            (00102)             Load():  Found double array image of size 1536.
+[Thu Sep 27 20:29:03 2012] dictionary.cc       (00267)             Load():  Exiting function , Load
