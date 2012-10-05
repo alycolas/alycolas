@@ -44,9 +44,9 @@ alias vba='~/downloads/VisualBoyAdvance -f 4'
 #alias hdir="grep $1 -r ~/.zsh_history"
 function hdir {grep $1 -r ~/.zsh_history --color=auto}
 alias h="histall | grep "
+alias hist="history 0 | grep "
 alias irssi="irssi -c irc.freenode.net -n aly"
 alias mem="free -m"
-alias msn="tmsnc -l hutchy@subdimension.com"
 ##命令提示符 {{{
 RPROMPT=$(echo '%{\033[31m%}%D %T%{\033[m%}')
 PROMPT=$(echo '%{\033[34m%}%M%{\033[32m%}%/
@@ -67,7 +67,7 @@ export HISTSIZE=10000
 #注销后保存的历史纪录条目数量
 export SAVEHIST=10000
 #历史纪录文件
-#export HISTFILE=~/.zhistory
+export HISTFILE=~/.zhistory
 #以附加的方式写入历史纪录
 setopt INC_APPEND_HISTORY
 #如果连续输入的命令相同，历史纪录中只保留一个
@@ -267,27 +267,6 @@ autoload run-help
 alias top10='print -l  ${(o)history%% *} | uniq -c | sort -nr | head -n 10'
 #}}}
 
-#路径别名 {{{
-#进入相应的路径时只要 cd ~xxx
-hash -d WWW="/home/lighttpd/html"
-hash -d ARCH="/mnt/arch"
-hash -d PKG="/var/cache/pacman/pkg"
-hash -d E="/etc/env.d"
-hash -d C="/etc/conf.d"
-hash -d I="/etc/rc.d"
-hash -d X="/etc/X11"
-hash -d BK="/home/r00t/config_bak"
-#}}}
-    
-##for Emacs {{{
-#在 Emacs终端 中使用 Zsh 的一些设置 不推荐在 Emacs 中使用它
-if [[ "$TERM" == "dumb" ]]; then
-setopt No_zle
-PROMPT='%n@%M %/
->>'
-alias ls='ls -F'
-fi 	
-#}}}
 
 #{{{自定义补全
 #补全 ping
@@ -312,151 +291,5 @@ function timeconv { date -d @$1 +"%Y-%m-%d %T" }
 
 ## END OF FILE #################################################################
 # vim:filetype=zsh foldmethod=marker autoindent expandtab shiftwidth=4 
-#
-#
-# #效果超炫的提示符
 
-#function precmd {
-#
-#local TERMWIDTH
-#(( TERMWIDTH = ${COLUMNS} - 1 ))
-#
-#
-####
-## Truncate the path if it's too long.
-#
-#PR_FILLBAR=""
-#PR_PWDLEN=""
-#
-#local promptsize=${#${(%):---(%n@%m:%l)---()--}}
-#local pwdsize=${#${(%):-%~}}
-#
-#if [[ "$promptsize + $pwdsize" -gt $TERMWIDTH ]]; then
-#((PR_PWDLEN=$TERMWIDTH - $promptsize))
-#else
-#PR_FILLBAR="\${(l.(($TERMWIDTH - ($promptsize + $pwdsize)))..${PR_HBAR}.)}"
-#fi
-#
-#
-####
-## Get APM info.
-#
-##if which ibam > /dev/null; then
-##PR_APM_RESULT=`ibam --percentbattery`
-##elif which apm > /dev/null; then
-##PR_APM_RESULT=`apm`
-##fi
-#}
-#
-#
-#setopt extended_glob
-#preexec () {
-#if [[ "$TERM" == "screen" ]]; then
-#local CMD=${1[(wr)^(*=*|sudo|-*)]}
-#echo -n "\ek$CMD\e\\"
-#fi
-#}
-#
-#setprompt () {
-####
-## Need this so the prompt will work.
-#
-#setopt prompt_subst
-#
-#
-####
-## See if we can use colors.
-#
-#autoload colors zsh/terminfo
-#if [[ "$terminfo[colors]" -ge 8 ]]; then
-#colors
-#fi
-#for color in RED GREEN YELLOW BLUE MAGENTA CYAN WHITE; do
-#eval PR_$color='%{$terminfo[bold]$fg[${(L)color}]%}'
-#eval PR_LIGHT_$color='%{$fg[${(L)color}]%}'
-#(( count = $count + 1 ))
-#done
-#PR_NO_COLOUR="%{$terminfo[sgr0]%}"
-#
-#
-####
-## See if we can use extended characters to look nicer.
-#
-#typeset -A altchar
-#set -A altchar ${(s..)terminfo[acsc]}
-#PR_SET_CHARSET="%{$terminfo[enacs]%}"
-#PR_SHIFT_IN="%{$terminfo[smacs]%}"
-#PR_SHIFT_OUT="%{$terminfo[rmacs]%}"
-#PR_HBAR=${altchar[q]:--}
-##PR_HBAR=" "
-#PR_ULCORNER=${altchar[l]:--}
-#PR_LLCORNER=${altchar[m]:--}
-#PR_LRCORNER=${altchar[j]:--}
-#PR_URCORNER=${altchar[k]:--}
-#
-#
-####
-## Decide if we need to set titlebar text.
-#
-#case $TERM in
-#xterm*)
-#PR_TITLEBAR=$'%{\e]0;%(!.-=*[ROOT]*=- | .)%n@%m:%~ | ${COLUMNS}x${LINES} | %y\a%}'
-#;;
-#screen)
-#PR_TITLEBAR=$'%{\e_screen \005 (\005t) | %(!.-=[ROOT]=- | .)%n@%m:%~ | ${COLUMNS}x${LINES} | %y\e\\%}'
-#;;
-#*)
-#PR_TITLEBAR=''
-#;;
-#esac
-#
-#
-####
-## Decide whether to set a screen title
-#if [[ "$TERM" == "screen" ]]; then
-#PR_STITLE=$'%{\ekzsh\e\\%}'
-#else
-#PR_STITLE=''
-#fi
-#
-#
-####
-## APM detection
-#
-##if which ibam > /dev/null; then
-##PR_APM='$PR_RED${${PR_APM_RESULT[(f)1]}[(w)-2]}%%(${${PR_APM_RESULT[(f)3]}[(w)-1]})$PR_LIGHT_BLUE:'
-##elif which apm > /dev/null; then
-##PR_APM='$PR_RED${PR_APM_RESULT[(w)5,(w)6]/\% /%%}$PR_LIGHT_BLUE:'
-##else
-#PR_APM=''
-##fi
-#
-#
-####
-## Finally, the prompt.
-#
-#PROMPT='$PR_SET_CHARSET$PR_STITLE${(e)PR_TITLEBAR}\
-#$PR_CYAN$PR_SHIFT_IN$PR_ULCORNER$PR_BLUE$PR_HBAR$PR_SHIFT_OUT(\
-#$PR_GREEN%(!.%SROOT%s.%n)$PR_GREEN@%m:%l\
-#$PR_BLUE)$PR_SHIFT_IN$PR_HBAR$PR_CYAN$PR_HBAR${(e)PR_FILLBAR}$PR_BLUE$PR_HBAR$PR_SHIFT_OUT(\
-#$PR_MAGENTA%$PR_PWDLEN<...<%~%<<\
-#$PR_BLUE)$PR_SHIFT_IN$PR_HBAR$PR_CYAN$PR_URCORNER$PR_SHIFT_OUT\
-#
-#$PR_CYAN$PR_SHIFT_IN$PR_LLCORNER$PR_BLUE$PR_HBAR$PR_SHIFT_OUT(\
-#%(?..$PR_LIGHT_RED%?$PR_BLUE:)\
-#${(e)PR_APM}$PR_YELLOW%D{%H:%M}\
-#$PR_LIGHT_BLUE:%(!.$PR_RED.$PR_WHITE)%#$PR_BLUE)$PR_SHIFT_IN$PR_HBAR$PR_SHIFT_OUT\
-#$PR_CYAN$PR_SHIFT_IN$PR_HBAR$PR_SHIFT_OUT\
-#$PR_NO_COLOUR '
-#
-#RPROMPT=' $PR_CYAN$PR_SHIFT_IN$PR_HBAR$PR_BLUE$PR_HBAR$PR_SHIFT_OUT\
-#($PR_YELLOW%D{%a,%b%d}$PR_BLUE)$PR_SHIFT_IN$PR_HBAR$PR_CYAN$PR_LRCORNER$PR_SHIFT_OUT$PR_NO_COLOUR'
-#
-#PS2='$PR_CYAN$PR_SHIFT_IN$PR_HBAR$PR_SHIFT_OUT\
-#$PR_BLUE$PR_SHIFT_IN$PR_HBAR$PR_SHIFT_OUT(\
-#$PR_LIGHT_GREEN%_$PR_BLUE)$PR_SHIFT_IN$PR_HBAR$PR_SHIFT_OUT\
-#$PR_CYAN$PR_SHIFT_IN$PR_HBAR$PR_SHIFT_OUT$PR_NO_COLOUR '
-#}
-#
-#setprompt      
 set -o vi
