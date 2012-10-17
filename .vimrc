@@ -400,10 +400,12 @@ endfunction
 " My own setting
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-set gfn=Monaco\ 12.5
-set gfw=文泉驿等宽微米黑\ 12.5
+set gfn=Inconsolata\ 13
+set gfw=10.5
+" set gfn=Monaco\ 12.5
+" set gfw=文泉驿等宽微米黑\ 12
 " set gfn=文泉驿等宽微米黑\ 13
-"set nu
+" set nu
 set relativenumber
 set fileencodings=ucs-bom,utf-8,chinese
 set formatoptions+=mM
