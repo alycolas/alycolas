@@ -1,5 +1,25 @@
-# My function
+#{{{ My function
 #
+#meizitu kankan
+function meizi {
+	curl http://jandan.net/ooxx | sed  -e /height=\"85\"/d -e /net\\/ad/d | grep img\ src=\" | sed -e s/^.\\+\"h/h/g -e s/\"\ .\\+$//g |  aria2c  -j35  -c -d /tmp/current -i - & ;sleep 5 ; feh  -R1 -FYZdD3 --cycle-once /tmp/current ; feh -t -W1280 -E95 --index-info '' /tmp/current
+		let current=`curl http://jandan.net/ooxx | grep -o -m 1 "\[[[:digit:]]\{3\}\]" | sed -e "s/\[//g" -e "s/\]//"`
+		current=$(($current-1))
+	for i in {1..100}
+	do
+		mkdir /tmp/$current
+		curl http://jandan.net/ooxx/page-$current | sed  -e /height=\"85\"/d -e /net\\/ad/d | grep img\ src=\" | sed -e s/^.\\+\"h/h/g -e s/\"\ .\\+$//g |  aria2c -j50 -q -c -d /tmp/$current -i - & ; sleep 5 ; feh  -R1 -FYdZD3 --cycle-once /tmp/$current  #; feh -t -W1280 -E100 --index-info '' /tmp/$current
+		#curl http://jandan.net/ooxx | grep img\ src=\" | sed s/^.\\+\"h/h/g | sed s/\"\ .\\+$//g | aria2c -c -i - -d /tmp
+		#curl http://jandan.net/ooxx/page-$current | grep img\ src=\" | sed s/^.\\+\"h/h/g | sed s/\.jpg\".\\+$/\.jpg/g |  aria2c -j33 --connect-timeout=1 -c -d /tmp/$current -i - & ;sleep 5 ; feh -R1 -F -Y -d -S name --cycle-once /tmp/$current ; feh -t -a50 --index-info '' /tmp/$current
+		rm -r /tmp/$current
+		echo $current
+	#	echo "Press any key to view next page !"
+		current=$(($current-1))
+		read -n 1 
+	done
+}
+#end of meizitu
+
 # cpu temp
 function temp {
     for i in  {1..10000}
@@ -28,66 +48,13 @@ function temp {
         sleep 1
     done
 }
+#end of cpu tmep
+#end of function}}}
 
-#end My funcion
-
-alias df='df -h'
-alias wget='wget -c'
-alias aria2c='aria2c -c'
-alias du='du -m | sort -n'
-alias halt='sudo halt'
-alias reboot='sudo reboot'
-function cdl {cd $1; ls}
-alias slurm='slurm -i eth0'
-alias mount='sudo mount'
-alias umount='sudo umount'
-alias usb='sudo mount -o iocharset=utf8'
-alias mp4="mencoder -of lavf -lavfopts format=mp4 -oac lavc -ovc lavc -lavcopts aglobal=1:vglobal=1:acodec=libfaac:vcodec=mpeg4:abitrate=32:vbitrate=200:keyint=25:mbd=1:vqmax=10:lmax=10:vpass=1:turbo -ofps 15 -af lavcresample=44100 -vf harddup,scale=320:-3 -alang chi"
-alias lftp='lftp ftp://192.168.0.3:2121'
-alias qjdl="export http_proxy='http://127.0.0.1:1998'"
-alias vd='/home/alycolas/lixian/video_lixian.py'
-# alias py='/home/alycolas/proxy/localproxy-2.0.0/proxy.py'
-alias al='cd /home/alycolas'
-alias we='/home/alycolas/proxy/west-chamber-proxy/westchamberproxy.py'
-alias -s html=$BROWSER
-alias -s org=$BROWSER
-alias -s php=$BROWSER
-alias -s com=$BROWSER
-alias -s net=$BROWSER
-alias -s png=feh
-alias -s jpg=feh
-alias -s gif=feg
-alias -s sxw=soffice
-alias -s doc=soffice
-alias -s gz='tar -xzvf'
-alias -s bz2='tar -xjvf'
-alias -s java=$EDITOR
-alias -s txt=$EDITOR
-alias -s PKGBUILD=$EDITOR
-# Normal aliases
-alias ls='ls --color=auto -F'
-alias lsd='ls -ld *(-/DN)'
-alias lsa='ls -ld .*'
-alias f='find |grep'
-alias c="clear"
-alias dir='ls -1'
-alias ..='cd ..'
-alias ppp-on='sudo /usr/sbin/ppp-on'
-alias ppp-off='sudo /usr/sbin/ppp-off'
-alias firestarter='sudo su -c firestarter'
-alias mpg123='mpg123 -o oss'
-alias mpg321='mpg123 -o oss'
-alias vba='~/downloads/VisualBoyAdvance -f 4'
-#alias hdir="grep $1 -r ~/.zsh_history"
-function hdir {grep $1 -r ~/.zsh_history --color=auto}
-alias h="histall | grep "
-alias hist="history 0 | grep "
-alias irssi="irssi -c irc.freenode.net -n aly"
-alias mem="free -m"
 ##命令提示符 {{{
 RPROMPT=$(echo '%{\033[31m%}%D %T%{\033[m%}')
-PROMPT=$(echo '%{\033[34m%}%M%{\033[32m%}%/
-%{\033[36m%}%n %{\033[01;31m%}>%{\033[33m%}>%{\033[34m%}>%{\033[m%} ')
+PROMPT=$(echo '%{\033[40;36m%}%n%{\033[44;37m%} %{\033[40;35m%}%M%{\033[44;37m%} %{\033[40;32m%}%/
+%{\033[0;31m%}>%{\033[33m%}>%{\033[36m%}> %{\033[m%}')
 #}}}
 
 #标题栏、任务栏样式{{{
@@ -288,6 +255,10 @@ bindkey "\e\e" sudo-command-line
 #}}}
   
 #命令别名 {{{
+alias dropbox='dropbox stop;sleep 3;dropbox start'
+alias xpdf='xpdf -fullscreen'
+alias wget='wget -c'
+alias aria2c='aria2c -c'
 alias -g cp='cp -i'
 alias -g mv='mv -i'
 #alias -g rm='rm -i'
@@ -295,8 +266,60 @@ alias -g ls='ls -F --color=auto'
 alias -g ll='ls -l'
 alias -g grep='grep --color=auto'
 alias -g ee='emacsclient -t'
+alias df='df -h'
+alias du='du -m | sort -n'
+alias halt='sudo halt'
+alias reboot='sudo reboot'
+function cdl {cd $1; ls}
+alias slurm='slurm -i eth0'
+alias mount='sudo mount'
+alias umount='sudo umount'
+alias usb='sudo mount -o iocharset=utf8'
+alias mp4="mencoder -of lavf -lavfopts format=mp4 -oac lavc -ovc lavc -lavcopts aglobal=1:vglobal=1:acodec=libfaac:vcodec=mpeg4:abitrate=32:vbitrate=200:keyint=25:mbd=1:vqmax=10:lmax=10:vpass=1:turbo -ofps 15 -af lavcresample=44100 -vf harddup,scale=320:-3 -alang chi"
+alias lftp='lftp ftp://192.168.0.3:2121'
+alias qjdl="export http_proxy='http://127.0.0.1:1998'"
+alias vd='/home/alycolas/lixian/video_lixian.py'
+# alias py='/home/alycolas/proxy/localproxy-2.0.0/proxy.py'
+alias al='cd /home/alycolas'
+alias we='/home/alycolas/proxy/west-chamber-proxy/westchamberproxy.py'
+alias -s html=$BROWSER
+alias -s org=$BROWSER
+alias -s php=$BROWSER
+alias -s com=$BROWSER
+alias -s net=$BROWSER
+alias -s png=feh
+alias -s jpg=feh
+alias -s gif=feg
+alias -s sxw=soffice
+alias -s doc=soffice
+alias -s gz='tar -xzvf'
+alias -s bz2='tar -xjvf'
+alias -s java=$EDITOR
+alias -s txt=$EDITOR
+alias -s PKGBUILD=$EDITOR
+# Normal aliases
+alias ls='ls --color=auto -F'
+alias lsd='ls -ld *(-/DN)'
+alias lsa='ls -ld .*'
+alias f='find |grep'
+alias c="clear"
+alias dir='ls -1'
+alias ..='cd ..'
+alias ppp-on='sudo /usr/sbin/ppp-on'
+alias ppp-off='sudo /usr/sbin/ppp-off'
+alias firestarter='sudo su -c firestarter'
+alias mpg123='mpg123 -o oss'
+alias mpg321='mpg123 -o oss'
+alias vba='~/downloads/VisualBoyAdvance -f 4'
+#alias hdir="grep $1 -r ~/.zsh_history"
+function hdir {grep $1 -r ~/.zsh_history --color=auto}
+alias h="histall | grep "
+alias hist="history 0 | grep "
+alias irssi="irssi -c irc.freenode.net -n aly"
+alias mem="free -m"
+#}}}
 
-#[Esc][h] man 当前命令时，显示简短说明 
+#{{{[Esc][h] man 当前命令时，显示简短说明 
 alias run-help >&/dev/null && unalias run-help
 autoload run-help
 
@@ -328,6 +351,8 @@ function timeconv { date -d @$1 +"%Y-%m-%d %T" }
 
 ## END OF FILE #################################################################
 # vim:filetype=zsh foldmethod=marker autoindent expandtab shiftwidth=4 
+
+##xmodmap .Xmodmap
 
 export EDITOR="vim"
 set -o vi

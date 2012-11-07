@@ -38,32 +38,32 @@ xterm*fontMenu*fontdefault*Label: Default
 
 xterm*xftAntialias: true
 xterm*cjkWidth:false  
-xterm*faceName: Inconsolata:antialias=True:pixelsize=17
-! xterm*faceName: Source Code Pro:antialias=True:pixelsize=16
+! xterm*faceName: Inconsolata:antialias=True:pixelsize=17
+ xterm*faceName: Source Code Pro:antialias=True:pixelsize=15
 ! xterm*faceName: Monaco:antialias=True:pixelsize=16:style=bold 
 ! xterm*faceName: Consolas:antialias=True:pixelsize=16  
 ! xterm*faceName: DejaVu Sans Mono:antialias=True:pixelsize=15  
 !双字节字体  
-xterm*faceNameDoublesize: WenQuanYi Micro Hei:pixelsize=14
+ xterm*faceNameDoublesize: WenQuanYi Micro Hei Mono:antialias=True:pixelsize=14.5
 ! xterm*faceNameDoublesize:文泉驿正黑:pixelsize=12  
 
-!!RXVT-unicode setting
-URxvt.font:-*-freemono-bold-r-normal--16-*-*-*-*-*-iso10646-1,xft:WenQuanYi Zen Hei:size=14:antialias-True
-!颜色
-Rxvt.background:#777777
-! black
-Rxvt.foreground:white
-Rxvt.colorBD:yellow
-Rxvt.colorUL:green
-!!滚动条
-Rxvt.scrollBar:True
-Rxvt.scrollBar_right:True
-Rxvt.scrollBar_floating: False
-Rxvt.scrollstyle:plain
-!!屏幕缓冲
-Rxvt.saveLines:10000
-Rxvt.color12:DodgerBlue
-Rxvt.menu:/etc/X11/rxvt.menu
-Rxvt.preeditType:Root
-!!输入法设置
+!!!RXVT-unicode setting
+!URxvt.font:-*-freemono-bold-r-normal--16-*-*-*-*-*-iso10646-1,xft:WenQuanYi Zen Hei:size=14:antialias-True
+!!颜色
+!Rxvt.background:#777777
+!! black
+!Rxvt.foreground:white
+!Rxvt.colorBD:yellow
+!Rxvt.colorUL:green
+!!!滚动条
+!Rxvt.scrollBar:True
+!Rxvt.scrollBar_right:True
+!Rxvt.scrollBar_floating: False
+!Rxvt.scrollstyle:plain
+!!!屏幕缓冲
+!Rxvt.saveLines:10000
+!Rxvt.color12:DodgerBlue
+!Rxvt.menu:/etc/X11/rxvt.menu
+!Rxvt.preeditType:Root
+!!!输入法设置
 inputMethod:xim  

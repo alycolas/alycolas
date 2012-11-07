@@ -13,6 +13,8 @@ if [ -d /etc/X11/xinit/xinitrc.d ]; then
 fi
 
 xrdb .Xresources
+
+
 export LANG="zh_CN.UTF-8"
 export LC_ALL="zh_CN.UTF-8"
 
@@ -21,11 +23,13 @@ export XIM=fcitx
 export XMODIFIERS=@im=fcitx
 export GTK_IM_MODULE=XIM
 export QT_IM_MODULE=XIM
+
 fcitx &
-xcompmgr -CcfF -I-.015 -O-.03  -D1 -t-5 -l-5 -r4.2 -o.75 &
+xcompmgr &
 # xcompmgr -CcfF -I-.015 -O-.03 -D2 -t-5 -l-5 -r4.2 -o.75 &
 parcellite &
-transmission-daemon
+# dropbox start
+#transmission-daemon
 # xcompmgr -Ss -n -Cc -fF -I-10 -O-10 -D1 -t-3 -l-4 -r4
 # xcompmgr &
 # exec gnome-session

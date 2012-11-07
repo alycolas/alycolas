@@ -71,7 +71,7 @@ nmap <leader>w :w!<cr>
 " => VIM user interface
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Set 7 lines to the cursor - when moving vertically using j/k
-set so=5
+set so=3
 
 " Turn on the WiLd menu
 set wildmenu
@@ -219,6 +219,8 @@ map <leader>ba :1,1000 bd!<cr>
 map <leader>tn :tabnew<cr>
 map <leader>to :tabonly<cr>
 map <leader>tc :tabclose<cr>
+map <leader>tl :tabnext<cr>
+map <leader>th :tabprevious<cr>
 map <leader>tm :tabmove
 
 " Opens a new tab with the current buffer's path
@@ -400,14 +402,19 @@ endfunction
 " My own setting
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+inoremap <C-E> <C-X><C-E>
+inoremap <C-Y> <C-X><C-Y>
+
+set mouse=a
+
 set gfn=Inconsolata\ 13
-set gfw=10.5
+set gfw=11
 " set gfn=Monaco\ 12.5
 " set gfw=文泉驿等宽微米黑\ 12
 " set gfn=文泉驿等宽微米黑\ 13
 " set nu
 set relativenumber
-set fileencodings=ucs-bom,utf-8,chinese
+set fileencodings=ucs-bom,utf-8,cp936,big5,chinese
 set formatoptions+=mM
 set cursorline
 set showtabline=1
@@ -419,7 +426,6 @@ noremap <a-w> :exe &wrap==1 ? 'set nowrap' : 'set wrap'<cr>
 map <F9> :vsplit 
 map <C-P> "+p
 map <C-Y> "+y
-nmap ' " 
 nmap <tab> v>
 nmap <s-tab> v<
 vmap <tab> >gv
@@ -441,6 +447,7 @@ if has("gui_running")
 	inoremap <a-i> <c-o>
 	inoremap <a-I> <c-o>I
 	inoremap <a-A> <c-o>A
+	inoremap <a-a> <c-o>la
 	inoremap <a-e> <c-o>e
 	inoremap <a-E> <c-o>E
 	inoremap <a-o> <c-o>o
